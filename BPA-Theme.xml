@@ -6,11 +6,11 @@
 <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
 <meta content='width=device-width, initial-scale=1, maximum-scale=5' name='viewport'/>
 <meta content='index, follow' name='robots'/>
-<meta content='Bangladesh Parkour Association (BPA) - The National Governing Body of Parkour in Bangladesh. Build Confidence. Overcome Challenge. Take Opportunity.' name='description'/>
-<meta content='parkour bangladesh, BPA, bangladesh parkour association, freerunning, parkour coaching, parkour events bangladesh, traceurs, dhaka parkour' name='keywords'/>
+<meta content='Bangladesh Parkour Association (BPA) - The National Governing Body of Parkour in Bangladesh. Build Confidence. Overcome Challenge. Take Opportunity. Founded 2026.' name='description'/>
+<meta content='parkour bangladesh, BPA, bangladesh parkour association, freerunning bangladesh, parkour coaching, parkour events bangladesh, traceurs dhaka, parkour championship bangladesh, chandrima uddan parkour, sazzad ghanem' name='keywords'/>
 <meta content='Bangladesh Parkour Association' name='author'/>
 <meta content='Bangladesh Parkour Association | National Governing Body of Parkour' property='og:title'/>
-<meta content='Bangladesh Parkour Association (BPA) - The National Governing Body of Parkour in Bangladesh.' property='og:description'/>
+<meta content='Bangladesh Parkour Association (BPA) - The National Governing Body of Parkour in Bangladesh. Build Confidence. Overcome Challenge. Take Opportunity.' property='og:description'/>
 <meta content='Bangladesh Parkour Association (BPA)' property='og:site_name'/>
 <meta content='website' property='og:type'/>
 <meta expr:content='data:blog.url' property='og:url'/>
@@ -21,418 +21,319 @@
 <link expr:href='data:blog.url' rel='canonical'/>
 <link href='https://i.ibb.co/PMK4q5t/bpa-logo.png' rel='shortcut icon' type='image/x-icon'/>
 <link href='https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@300;400;500;600;700;800&amp;family=Oswald:wght@400;500;600;700&amp;display=swap' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css' rel='stylesheet'/>
 <title><data:blog.pageTitle/></title>
-
 <b:skin><![CDATA[
-/* === BPA THEME — INSPIRED BY PARKOUR.UK === */
-/* Brand: Gold #d4af37 (logo) + Dark #0a0a0a + Bangladesh Red/Green accents */
-
-:root{
-  --black:#000000;
-  --white:#ffffff;
-  --bg:#ffffff;
-  --grey:#6b6b6b;
-  --grey-light:#f4f4f4;
-  --gold:#d4af37;
-  --gold-dark:#b8951f;
-  --yellow:#d4af37;
-  --red:#e63946;
-  --blue:#1a1a2e;
-  --dark:#0a0a0a;
-  --border:rgba(0,0,0,.1);
-  --font-body:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
-  --font-button:'Oswald','Bebas Neue',sans-serif;
-  --font-heading:'Oswald','Bebas Neue',sans-serif;
-}
-
+:root{--black:#000;--white:#fff;--bg:#fff;--grey:#6b6b6b;--grey-light:#f4f4f4;--gold:#d4af37;--gold-dark:#b8951f;--red:#e63946;--blue:#1a1a2e;--dark:#0a0a0a;--font-body:'Inter',sans-serif;--font-button:'Oswald',sans-serif;--font-heading:'Oswald',sans-serif}
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;overflow-x:hidden}
+html{scroll-behavior:smooth;overflow-x:hidden}
 body{font-family:var(--font-body);font-size:16px;line-height:1.55;color:var(--black);background:var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;display:block}
 a{color:inherit;text-decoration:none;transition:color .25s}
 ul,ol{list-style:none}
 button,input,textarea{font-family:inherit;border:none;outline:none;background:none}
-h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.1;letter-spacing:-.01em;text-transform:uppercase}
-.text-3xl{font-size:42px}
-.text-4xl{font-size:64px}
-.text-2xl{font-size:32px}
-.text-xl{font-size:22px}
-.text-lg{font-size:17px;line-height:1.6}
-.text-sm{font-size:13px}
-.text-base{font-size:15px}
-.font-button{font-family:var(--font-button);font-weight:500;letter-spacing:.5px}
-.font-semibold{font-weight:600}
-.uppercase{text-transform:uppercase}
-.text-white{color:var(--white)}
-.text-black{color:var(--black)}
-.text-yellow{color:var(--gold)}
-.text-grey{color:var(--grey)}
-.bg-black{background:var(--black)}
-.bg-white{background:var(--white)}
-.bg-blue{background:var(--blue)}
-.bg-red{background:var(--red)}
-.bg-grey-light{background:var(--grey-light)}
-.bg-yellow{background:var(--gold)}
-
-/* === LAYOUT === */
+h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.1;text-transform:uppercase}
 .wrapper{max-width:1440px;margin:0 auto;padding:0 32px}
 .wrapper.wider{max-width:1600px}
 .full-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:30px}
-.full-grid.grid-cols-10{grid-template-columns:repeat(10,1fr)}
-.col-span-1{grid-column:span 1}
-.col-span-2{grid-column:span 2}
-.col-span-3{grid-column:span 3}
-.col-span-4{grid-column:span 4}
-.col-span-5{grid-column:span 5}
-.col-span-6{grid-column:span 6}
-.col-span-7{grid-column:span 7}
-.col-span-8{grid-column:span 8}
-.col-span-9{grid-column:span 9}
-.col-span-12,.col-span-full{grid-column:1/-1}
-.relative{position:relative}
-.absolute{position:absolute}
-.fixed{position:fixed}
-.block{display:block}
-.inline-block{display:inline-block}
-.flex{display:flex}
-.grid{display:grid}
-.items-center{align-items:center}
-.text-left{text-align:left}
-.text-center{text-align:center}
-.text-right{text-align:right}
-.text-3xl{font-size:42px}
-.cover{background-size:cover;background-position:center;background-repeat:no-repeat}
-.center-y{position:absolute;top:50%;left:0;transform:translateY(-50%)}
-.w-full{width:100%}
-.h-full{height:100%}
-.overflow-hidden{overflow:hidden}
-
-/* MARGINS / PADDING utility */
-.mt-3{margin-top:12px}.mt-4{margin-top:16px}.mt-6{margin-top:24px}.mt-7{margin-top:28px}.mt-8{margin-top:32px}.mt-10{margin-top:40px}.mt-12{margin-top:48px}.mt-14{margin-top:56px}.mt-16{margin-top:64px}.mt-20{margin-top:80px}.mt-28{margin-top:112px}.mt-32{margin-top:128px}
-.mb-2{margin-bottom:8px}.mb-3{margin-bottom:12px}.mb-5{margin-bottom:20px}.mb-6{margin-bottom:24px}.mb-8{margin-bottom:32px}.mb-10{margin-bottom:40px}.mb-12{margin-bottom:48px}.mb-14{margin-bottom:56px}.mb-28{margin-bottom:112px}.mb-32{margin-bottom:128px}
-.pt-6{padding-top:24px}.pt-10{padding-top:40px}.pt-14{padding-top:56px}.pt-16{padding-top:64px}.pt-20{padding-top:80px}
-.pb-8{padding-bottom:32px}.pb-16{padding-bottom:64px}.pb-20{padding-bottom:80px}
-.px-6{padding:0 24px}.px-8{padding:0 32px}.px-24{padding:0 96px}
-.py-2{padding:8px 0}.py-3{padding:12px 0}.py-5{padding:20px 0}.py-6{padding:24px 0}
-.ml-6{margin-left:24px}.mr-7{margin-right:28px}.mr-4{margin-right:16px}
-.max-w-full{max-width:100%}
-.min-w-\[600px\]{min-width:600px}
-.z-10{z-index:10}.z-20{z-index:20}.z-30{z-index:30}.z-50{z-index:50}.z-\[70\]{z-index:70}.z-\[100\]{z-index:100}
-
-/* === BUTTONS === */
-.button{display:inline-block;padding:14px 30px;font-family:var(--font-button);font-size:14px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;border-radius:0;cursor:pointer;transition:all .3s ease;border:2px solid transparent}
-.button.yellow{background:var(--gold);color:var(--black)}
-.button.yellow:hover{background:var(--gold-dark);transform:translateY(-2px)}
+.col-span-2{grid-column:span 2}.col-span-3{grid-column:span 3}.col-span-4{grid-column:span 4}.col-span-5{grid-column:span 5}.col-span-6{grid-column:span 6}.col-span-7{grid-column:span 7}.col-span-8{grid-column:span 8}.col-span-9{grid-column:span 9}.col-span-12,.col-span-full{grid-column:1/-1}
+.text-3xl{font-size:42px}.text-4xl{font-size:56px}.text-2xl{font-size:32px}.text-xl{font-size:22px}.text-lg{font-size:17px;line-height:1.6}.text-base{font-size:15px}.text-sm{font-size:13px}
+.text-white{color:var(--white)}.text-gold{color:var(--gold)}.bg-black{background:var(--black)}.bg-grey-light{background:var(--grey-light)}
+.mt-4{margin-top:16px}.mt-6{margin-top:24px}.mt-8{margin-top:32px}.mt-10{margin-top:40px}.mt-14{margin-top:56px}.mt-20{margin-top:80px}.mt-28{margin-top:112px}
+.mb-3{margin-bottom:12px}.mb-6{margin-bottom:24px}.mb-8{margin-bottom:32px}.mb-10{margin-bottom:40px}.mb-12{margin-bottom:48px}.mb-14{margin-bottom:56px}.mb-28{margin-bottom:112px}
+.pt-10{padding-top:40px}.pt-16{padding-top:64px}.pt-20{padding-top:80px}.pb-8{padding-bottom:32px}.pb-16{padding-bottom:64px}.pb-20{padding-bottom:80px}
+.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}
+.button{display:inline-block;padding:14px 30px;font-family:var(--font-button);font-size:14px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:all .3s ease;border:2px solid transparent}
+.button.yellow,.button.gold{background:var(--gold);color:var(--black)}
+.button.yellow:hover,.button.gold:hover{background:var(--gold-dark);transform:translateY(-2px)}
 .button.red{background:var(--red);color:var(--white)}
 .button.red:hover{background:#c82a37;transform:translateY(-2px)}
 .button.white-transparent{background:transparent;border:2px solid var(--white);color:var(--white)}
 .button.white-transparent:hover{background:var(--white);color:var(--black)}
-.button.black{background:var(--black);color:var(--white)}
-.button.black:hover{background:#222}
-
-/* === TAG === */
 .tag{display:inline-block;padding:4px 10px;background:var(--gold);color:var(--black);font-size:11px;font-family:var(--font-button);font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-right:6px;margin-bottom:6px}
 ]]></b:skin>
-
 </head>
 <body>
 
+
 <style>
-/* === HEADER === */
-.bpa-header{position:fixed;top:0;left:0;width:100%;z-index:90;padding:24px 32px;background:transparent;transition:all .3s ease}
-.bpa-header.scrolled{background:rgba(10,10,10,.95);padding:14px 32px;backdrop-filter:blur(10px)}
-.bpa-header .full-grid{align-items:center}
+/* HEADER */
+.bpa-header{position:fixed;top:0;left:0;width:100%;z-index:90;padding:18px 32px;background:transparent;transition:all .3s ease}
+.bpa-header.scrolled{background:rgba(10,10,10,.95);padding:12px 32px;backdrop-filter:blur(10px)}
+.bpa-header .full-grid{align-items:center;gap:20px}
 .logo-link{display:flex;align-items:center;gap:14px}
-.logo-link img{height:50px;width:50px;border-radius:50%;border:2px solid var(--gold)}
+.logo-link img,.bpa-header .Image img{height:54px!important;width:54px!important;border-radius:50%;border:2px solid var(--gold);object-fit:cover}
 .logo-text{font-family:var(--font-heading);font-size:18px;font-weight:700;color:var(--white);text-transform:uppercase;letter-spacing:.5px;line-height:1.1}
 .logo-text small{display:block;font-size:9px;font-weight:400;letter-spacing:2px;color:var(--gold);margin-top:3px;text-transform:uppercase}
-
-/* Header social icons (mobile center) */
-.header-socials a{display:inline-block;margin:0 6px;color:var(--white);font-size:18px}
-.header-socials a:hover{color:var(--gold)}
-
+/* hide widget chrome in header */
+.bpa-header .widget h2,.bpa-header .widget h3,.bpa-header .widget .widget-title{display:none}
+.bpa-header .HTML,.bpa-header .Image,.bpa-header .LinkList{margin:0;padding:0;background:none}
+.bpa-header .Image .widget-content{padding:0}
+.bpa-header .Image img{max-width:54px}
+.bpa-header .LinkList ul{display:flex;gap:6px;justify-content:center;flex-wrap:wrap}
+.bpa-header .LinkList ul li{display:inline-block}
+.bpa-header .LinkList ul li a{color:var(--white);font-size:18px;display:inline-block;padding:0 6px}
+.bpa-header .LinkList ul li a:hover{color:var(--gold)}
 /* MENU TOGGLE */
 .menuToggle{position:relative;width:80px;height:40px;cursor:pointer;display:inline-block;vertical-align:middle}
 .menuToggle .menuI{position:absolute;left:0;width:28px;height:2px;background:var(--white);transition:all .3s ease}
-.menuToggle .topI{top:14px}
-.menuToggle .bottomI{top:22px}
-.menuToggle.active .topI{top:18px;transform:rotate(45deg);background:var(--white)}
-.menuToggle.active .bottomI{top:18px;transform:rotate(-45deg);background:var(--white)}
+.menuToggle .topI{top:14px}.menuToggle .bottomI{top:22px}
+.menuToggle.active .topI{top:18px;transform:rotate(45deg)}
+.menuToggle.active .bottomI{top:18px;transform:rotate(-45deg)}
 .menuText{font-family:var(--font-button);font-size:13px;color:var(--white);letter-spacing:1px;position:absolute;left:36px;top:12px;text-transform:uppercase;font-weight:500}
-
 /* OVERLAY NAV */
 .overlayNav{position:fixed;top:0;left:0;width:100%;height:100%;z-index:100;opacity:0;visibility:hidden;transition:all .4s ease}
 .overlayNav.active{opacity:1;visibility:visible}
-.overlayNav .nav-bg{position:fixed;top:0;right:0;width:60%;height:100%;background-image:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600');background-size:cover;background-position:center;z-index:1}
-.overlayNav .navHolder{position:fixed;top:0;left:0;width:50%;min-width:600px;height:100%;background:var(--blue);z-index:20;padding:140px 50px 50px}
-.overlayNav .top-bar{position:fixed;top:0;left:0;width:100%;padding:24px 32px;z-index:30;display:flex;justify-content:space-between;align-items:center}
+.overlayNav .nav-bg{position:fixed;top:0;right:0;width:60%;height:100%;background-size:cover;background-position:center;z-index:1}
+.overlayNav .navHolder{position:fixed;top:0;left:0;width:50%;min-width:600px;height:100%;background:var(--blue);z-index:20;padding:140px 50px 50px;overflow-y:auto}
+.overlayNav .top-bar{position:fixed;top:0;left:0;width:100%;padding:18px 32px;z-index:30;display:flex;justify-content:space-between;align-items:center}
 .overlayNav .top-bar .logo-text{color:var(--black)}
 .overlayNav .top-bar .menuI{background:var(--black)}
 .overlayNav .top-bar .menuText{color:var(--black)}
-.navHolder ul li{margin-bottom:6px}
-.navLink{display:inline-block;font-family:var(--font-heading);font-size:42px;font-weight:600;color:var(--white);text-transform:uppercase;letter-spacing:-.5px;line-height:1.2;transition:color .25s,padding-left .3s}
-.navLink:hover{color:var(--gold);padding-left:10px}
-.smallNav{position:absolute;bottom:40px;left:50px;display:flex;gap:14px;align-items:center}
-.smallNav a img{width:22px;filter:brightness(0) invert(1)}
-
-/* === HERO TOP SLIDER === */
+.navHolder .widget h2,.navHolder .widget h3,.navHolder .widget .widget-title{display:none}
+.navHolder .LinkList ul li{margin-bottom:6px}
+.navHolder .LinkList ul li a,.navHolder .navLink{display:inline-block;font-family:var(--font-heading);font-size:38px;font-weight:600;color:var(--white);text-transform:uppercase;line-height:1.2;transition:all .25s}
+.navHolder .LinkList ul li a:hover,.navHolder .navLink:hover{color:var(--gold);padding-left:10px}
+.navHolder .HTML{padding:0}
+/* HERO */
 .topSlider{position:relative;overflow:hidden}
 .hero-slide{position:relative;height:770px;width:100%;background-size:cover;background-position:center;display:none}
 .hero-slide.active{display:block}
-.hero-slide::before{content:'';position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.55) 0%,rgba(0,0,0,.15) 100%);z-index:1}
+.hero-slide::before{content:'';position:absolute;inset:0;background:linear-gradient(to right,rgba(0,0,0,.6),rgba(0,0,0,.15));z-index:1}
 .hero-slide .inner{position:absolute;top:50%;left:0;transform:translateY(-50%);padding:0 96px;z-index:5;width:100%}
-.hero-slide h1{font-size:56px;color:var(--white);font-family:var(--font-heading);font-weight:600;max-width:860px;margin-bottom:48px;line-height:1.05;text-transform:uppercase;letter-spacing:-.5px}
+.hero-slide h1{font-size:56px;color:var(--white);font-family:var(--font-heading);font-weight:600;max-width:860px;margin-bottom:40px;line-height:1.05;text-transform:uppercase;letter-spacing:-.5px}
 .slider-dots{position:absolute;bottom:40px;left:96px;display:flex;gap:12px;z-index:10}
 .slider-dot{width:50px;height:3px;background:rgba(255,255,255,.4);cursor:pointer;transition:all .3s}
 .slider-dot.active{background:var(--gold);height:5px}
-
-/* === DISCOVER SECTION === */
-.discover-section{margin-top:80px;padding-bottom:80px}
-.discover-section h2{font-size:42px}
-.discover-card{position:relative;height:600px;display:block;overflow:hidden}
-.discover-card.bg-red{background:var(--red)}
-.discover-card.bg-blue{background:var(--blue)}
-.discover-card.bg-black{background:var(--black)}
+/* hero edit via widget */
+.hero-edit-section .widget{display:none}
+.hero-edit-section.layoutMode .widget{display:block}
+/* SECTIONS */
+.section-title{font-size:42px;text-transform:uppercase;line-height:1.1}
+.section-subtitle{font-size:17px;line-height:1.6;color:#333;max-width:780px;margin-top:24px}
+.section-pad{padding:80px 0}
+/* DISCOVER */
+.discover-section{margin-top:60px;padding-bottom:60px;position:relative}
+.discover-card{position:relative;height:560px;display:block;overflow:hidden}
+.discover-card.bg-red{background:var(--red)}.discover-card.bg-blue{background:var(--blue)}.discover-card.bg-black{background:var(--black)}
 .discover-card .imageHolder{position:absolute;background-size:cover;background-position:center;transition:transform .5s ease}
 .discover-card .imageHolder.tl{top:40px;left:40px;right:40px;bottom:40px}
 .discover-card .imageHolder.tr{top:0;left:0;right:64px;bottom:97px}
 .discover-card .imageHolder.br{bottom:0;right:0;left:64px;top:96px}
 .discover-card:hover .imageHolder{transform:scale(1.04)}
 .discover-card .textHolder{position:absolute;z-index:10}
-.discover-card .textHolder.tl{top:12px;left:20px}
-.discover-card .textHolder.bl{bottom:48px;left:20px}
-.discover-card .textHolder.bl-mid{bottom:33%;left:20px}
-.discover-card h3{color:var(--white);font-size:28px;text-transform:uppercase;line-height:1.1;margin-bottom:24px}
-.discover-card .arrow{width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;color:var(--white);font-size:22px}
-.semi-circle{position:absolute;width:227px;left:25%;top:24%;z-index:1;transform:rotate(-12deg);opacity:.15;background:var(--gold);border-radius:50%;height:227px}
-.semi-circle-2{position:absolute;width:330px;left:52%;top:45%;z-index:1;background:var(--gold);border-radius:50%;height:330px;opacity:.08}
-.discover-text h4{font-family:var(--font-button);text-transform:uppercase;font-size:18px;margin-top:24px;margin-bottom:6px}
+.discover-card .textHolder.tl{top:14px;left:22px}
+.discover-card .textHolder.bl{bottom:48px;left:22px}
+.discover-card .textHolder.bl-mid{bottom:33%;left:22px}
+.discover-card h3{color:var(--white);font-size:26px;text-transform:uppercase;line-height:1.1;margin-bottom:20px}
+.discover-card .arrow{display:inline-block;color:var(--white);font-size:24px}
+.semi-circle{position:absolute;width:227px;height:227px;left:25%;top:24%;z-index:1;transform:rotate(-12deg);opacity:.15;background:var(--gold);border-radius:50%}
+.semi-circle-2{position:absolute;width:330px;height:330px;left:52%;top:45%;z-index:1;background:var(--gold);border-radius:50%;opacity:.08}
+.discover-text h4{font-family:var(--font-button);text-transform:uppercase;font-size:18px;margin-top:20px;margin-bottom:6px}
 .discover-text p{font-size:17px;line-height:1.6;color:#333;max-width:90%}
-
-/* === MARQUEE === */
+/* MARQUEE */
 .marquee{background:var(--gold);padding:18px 0;overflow:hidden;white-space:nowrap;margin:60px 0 0}
 .marquee-content{display:inline-block;animation:marquee 30s linear infinite}
 .marquee-content span{font-family:var(--font-button);font-size:18px;font-weight:600;color:var(--black);text-transform:uppercase;padding:0 4px;letter-spacing:1px}
 @keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-
-/* === MEDIA HUB === */
+/* MEDIA HUB */
 .media-section{padding:0}
-.media-section h2{font-size:42px}
-.media-section p{color:#333;font-size:17px;line-height:1.6;max-width:780px;margin-top:24px}
-.media-card{display:block;margin-bottom:56px}
-.media-card .image{position:relative;background-size:cover;background-position:center;margin-bottom:20px}
+.media-card{display:block;margin-bottom:48px}
+.media-card .image{position:relative;background-size:cover;background-position:center;margin-bottom:18px}
 .media-card .image::after{content:'';display:block;padding-bottom:100%}
-.media-card h4{font-size:21px;margin-top:6px;line-height:1.3;font-family:var(--font-heading);text-transform:none;font-weight:600}
+.media-card h4{font-size:21px;line-height:1.3;font-family:var(--font-heading);font-weight:600;text-transform:none}
 .media-card:hover h4{color:var(--gold)}
-
-/* === BLUE TEXT BLOCK / VIDEO BLOCK === */
-.blueTextBlock{align-items:center;border-bottom:1px solid rgba(0,0,0,.15);padding-bottom:0;margin:112px 0}
-.standardText h2{font-size:42px;margin-bottom:24px;text-transform:uppercase}
+/* VIDEO BLOCK */
+.blueTextBlock{align-items:center;border-bottom:1px solid rgba(0,0,0,.15);padding-bottom:60px;margin:80px 0}
+.standardText h2{font-size:42px;margin-bottom:20px;text-transform:uppercase}
 .standardText p{font-size:17px;line-height:1.7;color:#333;white-space:pre-line}
 .videoContainer{position:relative;padding-bottom:56.25%;height:0;overflow:hidden}
 .videoContainer iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-
-/* === MEMBERSHIP CTA === */
-.membership-cta{margin:112px 0;background-size:cover;background-position:center;display:grid;grid-template-columns:1fr 1fr;gap:30px}
-.membership-card{position:relative}
+/* MEMBERSHIP */
+.membership-cta{margin:80px 0;display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.membership-card{position:relative;overflow:hidden}
 .membership-card::after{content:'';display:block;padding-bottom:100%}
 .membership-card.tall::after{padding-bottom:120%}
-.membership-card .textWrapper{position:absolute;z-index:10}
-.membership-card.left .textWrapper{bottom:26.5%;left:5%}
-.membership-card.right .textWrapper{top:26.5%;right:5%;text-align:right}
-.membership-card h3{font-size:42px;color:var(--white);text-transform:uppercase;line-height:1;margin-bottom:24px}
 .membership-card .bg-img{position:absolute;inset:0;background-size:cover;background-position:center}
-.membership-card .bg-img::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.7),rgba(0,0,0,.3))}
-
-/* === COACH BLOCK === */
-.coach-block{position:relative;height:620px;background:var(--black);overflow:hidden}
+.membership-card .bg-img::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.75),rgba(0,0,0,.3))}
+.membership-card .textWrapper{position:absolute;z-index:10}
+.membership-card.left .textWrapper{bottom:26%;left:5%}
+.membership-card.right .textWrapper{top:26%;right:5%;text-align:right}
+.membership-card h3{font-size:38px;color:var(--white);text-transform:uppercase;line-height:1;margin-bottom:24px}
+/* COACH */
+.coach-block{position:relative;height:580px;background:var(--black);overflow:hidden}
 .coach-block .imageHolder{position:absolute;left:0;top:64px;right:270px;bottom:0;background-size:cover;background-position:center}
 .coach-block .textHolder{position:absolute;top:50%;right:56px;transform:translateY(-50%);z-index:10}
-.coach-block h3{font-size:42px;color:var(--white);text-transform:uppercase;line-height:1;margin-bottom:32px}
-
-/* === EVENTS SECTION === */
-.events-bg{background:var(--grey-light);margin-top:80px;padding-top:80px;padding-bottom:64px}
-.events-bg h2{font-size:42px}
-.event-card{display:block;margin-bottom:56px}
-.event-card .image{position:relative;background-size:cover;background-position:center;margin-bottom:20px;background:var(--red)}
+.coach-block h3{font-size:38px;color:var(--white);text-transform:uppercase;line-height:1;margin-bottom:28px}
+/* EVENTS / NEWS */
+.events-bg{background:var(--grey-light);margin-top:60px;padding:60px 0}
+.event-card{display:block;margin-bottom:48px}
+.event-card .image{position:relative;background-size:cover;background-position:center;margin-bottom:18px;background:var(--red)}
 .event-card .image::after{content:'';display:block;padding-bottom:70%}
-.event-card .image .date{position:absolute;top:8px;left:14px;color:var(--white);font-size:32px;font-weight:600;font-family:var(--font-heading)}
+.event-card .image .date{position:absolute;top:8px;left:14px;color:var(--white);font-size:30px;font-weight:600;font-family:var(--font-heading)}
 .event-card h4{font-size:17px;font-family:var(--font-button);text-transform:uppercase;letter-spacing:.5px;line-height:1.3;font-weight:600}
-.event-card p{font-size:15px;color:#333;margin-top:10px;line-height:1.55}
-
-/* === NEWS SECTION === */
-.news-section{margin-top:128px;padding-bottom:80px}
-.news-section h2{font-size:42px}
-.news-card{display:block;margin-bottom:56px}
-.news-card .image{position:relative;background-size:cover;background-position:center;margin-bottom:20px}
+.event-card p{font-size:15px;color:#333;margin-top:8px;line-height:1.55}
+.news-section{margin-top:80px;padding-bottom:60px}
+.news-card{display:block;margin-bottom:48px}
+.news-card .image{position:relative;background-size:cover;background-position:center;margin-bottom:18px;background:var(--blue)}
 .news-card .image::after{content:'';display:block;padding-bottom:70%}
-.news-card h4{font-size:17px;font-family:var(--font-button);text-transform:uppercase;letter-spacing:.5px;line-height:1.3;margin-top:8px;font-weight:600}
-.news-card p{font-size:15px;color:#333;margin-top:10px;line-height:1.55}
-</style>
-
-
-<style>
-/* === NEWSLETTER === */
-.newsletterHolder{background-size:cover;background-position:center;color:var(--white);position:relative;margin-top:0}
+.news-card h4{font-size:17px;font-family:var(--font-button);text-transform:uppercase;letter-spacing:.5px;line-height:1.3;font-weight:600;margin-top:8px}
+.news-card p{font-size:15px;color:#333;margin-top:8px;line-height:1.55}
+/* NEWSLETTER */
+.newsletterHolder{background-size:cover;background-position:center;color:var(--white);position:relative}
 .newsletterHolder::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.7)}
 .newsletterHolder .wrapper{position:relative;z-index:2}
 .newsletterHolder h2{font-size:42px;color:var(--white);text-transform:uppercase}
-.newsletterHolder p{font-size:17px;line-height:1.6;margin-top:40px;max-width:630px}
-.newsletterHolder #signup_form{margin-top:28px}
-.newsletterHolder input[type='text'],.newsletterHolder input[type='email']{width:100%;padding:14px 20px;background:var(--white);color:var(--black);border-bottom:1px solid var(--white);border-radius:0}
+.newsletterHolder p{font-size:17px;line-height:1.6;margin-top:24px;max-width:630px}
+.newsletterHolder input[type='text'],.newsletterHolder input[type='email']{width:100%;padding:14px 20px;background:var(--white);color:var(--black)}
 .newsletterHolder input[type='text']::placeholder,.newsletterHolder input[type='email']::placeholder{color:var(--grey)}
-.newsletterHolder .response{color:var(--gold);margin-top:24px;font-size:17px}
-.newsletterHolder .privacy-note{font-size:15px;margin-top:112px;max-width:630px;line-height:1.6}
-
-/* === FOOTER === */
+.newsletterHolder .response{color:var(--gold);margin-top:16px;font-size:17px}
+.newsletterHolder .privacy-note{font-size:14px;margin-top:80px;max-width:630px;line-height:1.6;opacity:.85}
+/* FOOTER */
 .bpa-footer{background:var(--black);color:var(--white);padding:64px 0 16px}
-.bpa-footer .footer-top{align-items:center}
-.bpa-footer .footer-logo img{max-width:540px;width:100%;border:none;height:auto;border-radius:0}
-.bpa-footer .partners{text-align:right}
-.bpa-footer .partners img{height:28px;width:auto;display:inline-block;margin-left:24px;margin-bottom:8px;filter:brightness(0) invert(1) opacity(.85)}
-.bpa-footer .footerLists{margin-top:112px;display:grid;grid-template-columns:repeat(10,1fr);gap:30px}
-.bpa-footer .footerLists>div{grid-column:span 2}
-.bpa-footer .footerLists h3{color:var(--gold);font-family:var(--font-button);font-size:13px;text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:12px}
-.bpa-footer .footerLists ul{margin-top:12px;line-height:1.9}
-.bpa-footer .footerLists ul li a{font-size:15px;color:var(--white);transition:color .25s,padding-left .25s}
+.bpa-footer .footerLogo img{max-width:540px;width:100%;border-radius:0;border:none}
+.bpa-footer .partners img{height:32px;width:auto;display:inline-block;margin-left:24px;margin-bottom:8px;filter:brightness(0) invert(1) opacity(.85)}
+.bpa-footer .footerLists{margin-top:80px;display:grid;grid-template-columns:repeat(5,1fr);gap:30px}
+.bpa-footer .footerLists .widget h2,.bpa-footer .footerLists .widget h3,.bpa-footer .footerLists .widget .widget-title{font-family:var(--font-button);font-size:13px;color:var(--gold)!important;text-transform:uppercase;letter-spacing:1px;font-weight:600;margin-bottom:12px;padding:0;background:none;border:none}
+.bpa-footer .footerLists .widget{margin:0;padding:0;background:none}
+.bpa-footer .footerLists ul{margin-top:8px;line-height:1.9}
+.bpa-footer .footerLists ul li a{font-size:14px;color:var(--white);transition:all .25s}
 .bpa-footer .footerLists ul li a:hover{color:var(--gold);padding-left:5px}
-.bpa-footer .footer-bottom{margin-top:80px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2);display:grid;grid-template-columns:1fr 1fr;align-items:center}
+.bpa-footer .footer-bottom{margin-top:60px;padding-top:24px;border-top:1px solid rgba(255,255,255,.2);display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:20px}
 .bpa-footer .footer-bottom .socials a{display:inline-block;margin-right:16px;color:var(--white);font-size:20px}
 .bpa-footer .footer-bottom .socials a:hover{color:var(--gold)}
 .bpa-footer .footer-bottom .legal{text-align:right;font-size:14px}
-.bpa-footer .footer-bottom .legal a{margin-left:32px}
+.bpa-footer .footer-bottom .legal a{margin-left:24px}
 .bpa-footer .footer-bottom .legal a:hover{color:var(--gold)}
-.bpa-footer .footer-logo-wrap{display:flex;align-items:center;gap:18px}
-.bpa-footer .footer-logo-wrap img{width:80px;height:80px;border-radius:50%;border:2px solid var(--gold)}
-.bpa-footer .footer-logo-wrap .text{font-family:var(--font-heading);font-size:24px;font-weight:700;color:var(--white);text-transform:uppercase;line-height:1.1}
-.bpa-footer .footer-logo-wrap .text small{display:block;font-size:11px;font-weight:400;letter-spacing:2px;color:var(--gold);margin-top:6px}
-
-/* BLOGGER POST PAGE */
+/* POST PAGE */
 .post-page{padding:140px 0 80px;max-width:900px;margin:0 auto}
-.post-page h1.post-title{font-size:48px;margin-bottom:24px;text-transform:uppercase;line-height:1.1}
-.post-page .post-meta{font-size:14px;color:var(--grey);margin-bottom:32px;display:flex;gap:20px}
-.post-page .post-body{font-size:17px;line-height:1.85;color:#222}
+.post-page h1.post-title{font-size:48px;margin-bottom:20px;text-transform:uppercase;line-height:1.1}
+.post-page .post-meta{font-size:14px;color:var(--grey);margin-bottom:28px}
+.post-page .post-body{font-size:17px;line-height:1.8;color:#222}
 .post-page .post-body p{margin-bottom:18px}
-.post-page .post-body img{border-radius:0;margin:24px 0;width:100%;height:auto}
+.post-page .post-body img{margin:24px 0;width:100%;height:auto}
 .post-page .post-body a{color:var(--gold);text-decoration:underline}
-.post-page .post-body h2,.post-page .post-body h3{margin:36px 0 16px;font-family:var(--font-heading);text-transform:uppercase}
+.post-page .post-body h2,.post-page .post-body h3{margin:32px 0 16px;font-family:var(--font-heading);text-transform:uppercase}
 .post-page .post-body blockquote{border-left:4px solid var(--gold);padding:8px 24px;margin:24px 0;font-style:italic;color:#444}
 .post-labels{margin:24px 0}
 .comments-area{margin-top:60px;padding-top:40px;border-top:2px solid var(--gold)}
-.comments-area h3{font-size:24px;margin-bottom:24px;text-transform:uppercase}
 .pagination{display:flex;justify-content:center;gap:12px;padding:40px 0}
 .pagination a{padding:12px 24px;background:var(--grey-light);font-family:var(--font-button);font-size:14px;text-transform:uppercase;letter-spacing:1px;font-weight:600}
 .pagination a:hover,.pagination a.active{background:var(--gold);color:var(--black)}
-
-/* === RESPONSIVE === */
-@media(max-width:1280px){
-  .text-3xl{font-size:36px}
-  .hero-slide h1{font-size:46px}
-  .navLink{font-size:36px}
-}
-
+/* GENERIC WIDGET STYLE - allows Layout customization */
+.section-widgets .widget{margin-bottom:0}
+.bpa-section-block{margin-bottom:60px}
+.bpa-section-block h2{font-size:42px;text-transform:uppercase;margin-bottom:30px}
+.HTML .widget-content{font-size:17px;line-height:1.7}
+/* Responsive */
 @media(max-width:1024px){
-  .wrapper{padding:0 24px}
-  .bpa-header{padding:18px 24px}
-  .hero-slide{height:600px}
-  .hero-slide .inner{padding:0 40px}
-  .hero-slide h1{font-size:38px;max-width:700px}
-  .text-3xl{font-size:32px}
-  .col-span-3,.col-span-4,.col-span-5,.col-span-6,.col-span-7,.col-span-8,.col-span-9{grid-column:span 6}
-  .col-span-2{grid-column:span 5}
-  .discover-card{height:460px}
-  .coach-block{height:460px}
-  .coach-block .imageHolder{right:30px}
-  .navHolder{width:60%!important;padding:120px 40px 40px}
-  .bpa-footer .footerLists{grid-template-columns:repeat(2,1fr)}
-  .bpa-footer .footerLists>div{grid-column:span 1}
+.wrapper{padding:0 24px}.bpa-header{padding:14px 24px}
+.hero-slide{height:600px}.hero-slide .inner{padding:0 40px}.hero-slide h1{font-size:38px;max-width:700px}
+.section-title,.standardText h2,.newsletterHolder h2{font-size:32px}
+.col-span-3,.col-span-4,.col-span-5,.col-span-6,.col-span-7,.col-span-8,.col-span-9{grid-column:span 6}
+.discover-card,.coach-block{height:460px}
+.coach-block .imageHolder{right:30px}
+.bpa-footer .footerLists{grid-template-columns:repeat(3,1fr)}
+.navHolder{width:60%!important}
 }
-
 @media(max-width:768px){
-  .wrapper{padding:0 16px}
-  .bpa-header{padding:14px 16px}
-  .button{padding:12px 22px;font-size:13px}
-  .header-cta{display:none}
-  .hero-slide{height:500px}
-  .hero-slide .inner{padding:0 24px}
-  .hero-slide h1{font-size:28px;max-width:360px;margin-bottom:32px}
-  .slider-dots{left:24px;bottom:24px}
-  .slider-dot{width:30px}
-  .text-3xl{font-size:26px}
-  .text-4xl{font-size:36px}
-  .col-span-3,.col-span-4,.col-span-5,.col-span-6,.col-span-7,.col-span-8,.col-span-9,.col-span-2{grid-column:1/-1}
-  .discover-section{margin-top:56px}
-  .discover-card{height:320px}
-  .marquee{margin:36px 0}
-  .marquee-content span{font-size:14px}
-  .blueTextBlock{margin:24px 0 56px;flex-direction:column}
-  .blueTextBlock .standardText{margin-top:32px}
-  .standardText h2{font-size:28px}
-  .membership-cta{grid-template-columns:1fr;gap:16px;margin:36px 0 56px;background:none!important}
-  .membership-card::after{padding-bottom:130%}
-  .membership-card .textWrapper{bottom:32px!important;top:auto!important;left:24px!important;right:24px!important;text-align:left!important}
-  .membership-card h3{font-size:28px}
-  .coach-block{height:400px}
-  .coach-block .imageHolder{right:30px;top:40px;bottom:auto;height:60%}
-  .coach-block .textHolder{right:24px;top:auto;bottom:32px;transform:none;left:24px}
-  .coach-block h3{font-size:32px}
-  .events-bg{margin-top:24px;padding:56px 0}
-  .news-section{margin-top:64px}
-  .newsletterHolder h2{font-size:28px}
-  .newsletterHolder .privacy-note{margin-top:48px}
-  .bpa-footer{padding:32px 0 16px}
-  .bpa-footer .partners{text-align:left;margin-top:24px}
-  .bpa-footer .partners img{margin-left:0;margin-right:24px}
-  .bpa-footer .footerLists{margin-top:32px;grid-template-columns:repeat(2,1fr);gap:16px}
-  .bpa-footer .footerLists>div{margin-top:32px}
-  .bpa-footer .footer-bottom{grid-template-columns:1fr;gap:16px;margin-top:48px}
-  .bpa-footer .footer-bottom .legal{text-align:left}
-  .bpa-footer .footer-bottom .legal a{margin-left:0;margin-right:24px;display:inline-block}
-  .navHolder{width:100%!important;min-width:0!important;padding:90px 24px 24px}
-  .navLink{font-size:28px}
-  .smallNav{left:24px;bottom:32px}
-  .post-page{padding:100px 0 56px}
-  .post-page h1.post-title{font-size:32px}
+.wrapper{padding:0 16px}.bpa-header{padding:12px 16px}
+.button{padding:12px 22px;font-size:13px}
+.hero-slide{height:500px}.hero-slide .inner{padding:0 24px}.hero-slide h1{font-size:26px;max-width:340px;margin-bottom:28px}
+.slider-dots{left:24px;bottom:24px}.slider-dot{width:30px}
+.section-title,.standardText h2,.newsletterHolder h2,.section-3xl{font-size:26px}
+.col-span-3,.col-span-4,.col-span-5,.col-span-6,.col-span-7,.col-span-8,.col-span-9,.col-span-2{grid-column:1/-1}
+.discover-section{margin-top:48px}.discover-card{height:320px}
+.marquee{margin:30px 0}.marquee-content span{font-size:14px}
+.blueTextBlock{margin:24px 0 40px;padding-bottom:30px}
+.membership-cta{grid-template-columns:1fr;gap:14px;margin:30px 0 48px}
+.membership-card::after{padding-bottom:130%}
+.membership-card .textWrapper{bottom:24px!important;top:auto!important;left:24px!important;right:24px!important;text-align:left!important}
+.membership-card h3{font-size:24px}
+.coach-block{height:380px}.coach-block .imageHolder{right:30px;top:40px;bottom:auto;height:60%}
+.coach-block .textHolder{right:24px;top:auto;bottom:32px;transform:none;left:24px}
+.coach-block h3{font-size:28px}
+.events-bg{margin-top:24px;padding:48px 0}.news-section{margin-top:48px}
+.bpa-footer{padding:32px 0 16px}
+.bpa-footer .partners{margin-top:24px;text-align:left}
+.bpa-footer .partners img{margin-left:0;margin-right:24px}
+.bpa-footer .footerLists{margin-top:32px;grid-template-columns:repeat(2,1fr);gap:14px}
+.bpa-footer .footer-bottom{grid-template-columns:1fr;text-align:left}
+.bpa-footer .footer-bottom .legal{text-align:left}
+.bpa-footer .footer-bottom .legal a{margin-left:0;margin-right:18px;display:inline-block}
+.navHolder{width:100%!important;min-width:0!important;padding:90px 24px 24px}
+.navHolder .LinkList ul li a,.navHolder .navLink{font-size:26px}
+.post-page{padding:100px 0 48px}.post-page h1.post-title{font-size:30px}
 }
-
 @media(max-width:480px){
-  .logo-link img{height:42px;width:42px}
-  .logo-text{font-size:14px}
-  .menuToggle{width:60px}
-  .menuText{font-size:11px;left:32px}
-  .button{font-size:12px;padding:10px 18px}
-  .hero-slide{height:460px}
-  .hero-slide h1{font-size:24px}
-  .marquee-content span{font-size:12px}
-  .navLink{font-size:22px}
+.logo-link img,.bpa-header .Image img{height:42px!important;width:42px!important}
+.logo-text{font-size:14px}
+.menuToggle{width:60px}.menuText{font-size:11px;left:32px}
+.button{font-size:12px;padding:10px 18px}
+.hero-slide{height:440px}.hero-slide h1{font-size:22px}
+.bpa-footer .footerLists{grid-template-columns:1fr}
 }
-
-/* hide desktop CTA on mobile etc */
-.hide-mobile{display:inline-block}
-@media(max-width:768px){.hide-mobile{display:none!important}}
-.show-mobile{display:none}
-@media(max-width:768px){.show-mobile{display:inline-block!important}}
+.hide-mobile{display:inline-block}@media(max-width:768px){.hide-mobile{display:none!important}}
 </style>
 
 
 
-<!-- ========== HEADER ========== -->
+<!-- ========== HEADER (FULLY EDITABLE FROM LAYOUT) ========== -->
 <header class='bpa-header' id='bpaHeader'>
   <div class='full-grid'>
-    <div class='col-span-4 text-left'>
+    <!-- LOGO: editable Image widget -->
+    <div class='col-span-4'>
       <a class='logo-link' href='/'>
-        <img alt='BPA Logo' src='https://i.ibb.co/PMK4q5t/bpa-logo.png'/>
+        <b:section class='header-logo' id='header-logo' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image1' locked='false' title='BPA Logo' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://i.ibb.co/PMK4q5t/bpa-logo.png</b:widget-setting>
+              <b:widget-setting name='displayHeight'>54</b:widget-setting>
+              <b:widget-setting name='displayWidth'>54</b:widget-setting>
+              <b:widget-setting name='caption'></b:widget-setting>
+              <b:widget-setting name='link'>/</b:widget-setting>
+              <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+              <b:widget-setting name='sectionTitle'></b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'>
+              <img alt='BPA Logo' expr:src='data:image.sourceUrl ? data:image.sourceUrl : &quot;https://i.ibb.co/PMK4q5t/bpa-logo.png&quot;'/>
+            </b:includable>
+          </b:widget>
+        </b:section>
         <div class='logo-text'>BPA<small>Bangladesh Parkour Association</small></div>
       </a>
     </div>
-    <div class='col-span-4 text-center hide-mobile'></div>
-    <div class='col-span-4 show-mobile text-center header-socials'>
-      <a href='https://instagram.com' target='_blank' title='Instagram'>&#xf16d;</a>
-      <a href='https://facebook.com' target='_blank' title='Facebook'>&#xf09a;</a>
-      <a href='https://linkedin.com' target='_blank' title='LinkedIn'>&#xf0e1;</a>
+
+    <!-- HEADER SOCIAL ICONS: editable LinkList -->
+    <div class='col-span-4 text-center'>
+      <b:section class='header-socials' id='header-socials' maxwidgets='1' showaddelement='no'>
+        <b:widget id='LinkList1' locked='false' title='' type='LinkList' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='link-1'>https://facebook.com/bangladeshparkour</b:widget-setting>
+            <b:widget-setting name='text-1'>&#xf09a;</b:widget-setting>
+            <b:widget-setting name='link-2'>https://instagram.com/bangladeshparkour</b:widget-setting>
+            <b:widget-setting name='text-2'>&#xf16d;</b:widget-setting>
+            <b:widget-setting name='link-3'>https://youtube.com/@bangladeshparkour</b:widget-setting>
+            <b:widget-setting name='text-3'>&#xf167;</b:widget-setting>
+            <b:widget-setting name='link-4'>https://linkedin.com/company/bangladesh-parkour</b:widget-setting>
+            <b:widget-setting name='text-4'>&#xf0e1;</b:widget-setting>
+            <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target' target='_blank' style='font-family:&quot;Font Awesome 6 Brands&quot;'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
     </div>
+
+    <!-- HEADER CTA + MENU TOGGLE -->
     <div class='col-span-4 text-right'>
-      <a class='button red mr-7 ml-6 hide-mobile header-cta' href='/p/membership.html'>Become a Member</a>
+      <a class='button red hide-mobile' href='/p/become-a-member.html' style='margin-right:20px'>Become a Member</a>
       <div class='menuToggle' id='menuToggle' onclick='toggleNav()'>
         <span class='menuI topI'></span>
         <span class='menuI bottomI'></span>
@@ -442,68 +343,146 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.
   </div>
 </header>
 
-<!-- ========== OVERLAY NAV ========== -->
+<!-- ========== OVERLAY NAV (FULLY EDITABLE FROM LAYOUT) ========== -->
 <div class='overlayNav' id='overlayNav'>
-  <div class='nav-bg'></div>
+  <div class='nav-bg' style='background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600)'></div>
   <div class='top-bar'>
     <a class='logo-link' href='/'>
-      <img alt='BPA Logo' src='https://i.ibb.co/PMK4q5t/bpa-logo.png' style='border-color:#000'/>
+      <img alt='BPA Logo' src='https://i.ibb.co/PMK4q5t/bpa-logo.png' style='border-color:#000;height:50px;width:50px;border-radius:50%;border:2px solid #d4af37'/>
       <div class='logo-text' style='color:#000'>BPA<small style='color:#d4af37'>Bangladesh Parkour Association</small></div>
     </a>
     <div>
-      <a class='button red mr-7 hide-mobile' href='/p/discover-parkour.html'>Discover Parkour</a>
+      <a class='button red hide-mobile' href='/p/discover-parkour.html' style='margin-right:20px'>Discover Parkour</a>
       <div class='menuToggle active' onclick='toggleNav()'>
-        <span class='menuI topI'></span>
-        <span class='menuI bottomI'></span>
+        <span class='menuI topI' style='background:#000'></span>
+        <span class='menuI bottomI' style='background:#000'></span>
         <span class='menuText' style='color:#000'>Close</span>
       </div>
     </div>
   </div>
+
+  <!-- NAV LINKS: fully editable LinkList -->
   <div class='navHolder'>
-    <ul>
-      <li><a class='navLink' href='/p/discover-parkour.html'>Discover Parkour</a></li>
-      <li><a class='navLink' href='/p/membership.html'>Memberships</a></li>
-      <li><a class='navLink' href='/p/safe-sport.html'>Safe Sport</a></li>
-      <li><a class='navLink' href='/p/events.html'>Events</a></li>
-      <li><a class='navLink' href='/p/coaches.html'>Coaches</a></li>
-      <li><a class='navLink' href='/search/label/Hub'>Media Hub</a></li>
-      <li><a class='navLink' href='/p/about.html'>About</a></li>
-      <li><a class='navLink' href='/search/label/News'>News</a></li>
-      <li><a class='navLink' href='/p/resources.html'>Resources</a></li>
-      <li><a class='navLink' href='/p/login.html'>Login</a></li>
-      <li><a class='navLink' href='/p/contact.html'>Contact</a></li>
-    </ul>
-    <ul class='smallNav'>
-      <li>
-        <a href='https://instagram.com' target='_blank'><img alt='Instagram' src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg'/></a>
-        <a href='https://facebook.com' target='_blank'><img alt='Facebook' src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/facebook.svg'/></a>
-        <a href='https://linkedin.com' target='_blank'><img alt='LinkedIn' src='https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg'/></a>
-      </li>
-    </ul>
+    <b:section class='nav-links-section' id='nav-links-section' maxwidgets='1' showaddelement='no'>
+      <b:widget id='LinkList2' locked='false' title='Main Menu' type='LinkList' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='link-1'>/p/discover-parkour.html</b:widget-setting>
+          <b:widget-setting name='text-1'>Discover Parkour</b:widget-setting>
+          <b:widget-setting name='link-2'>/p/become-a-member.html</b:widget-setting>
+          <b:widget-setting name='text-2'>Memberships</b:widget-setting>
+          <b:widget-setting name='link-3'>/p/safe-sport.html</b:widget-setting>
+          <b:widget-setting name='text-3'>Safe Sport</b:widget-setting>
+          <b:widget-setting name='link-4'>/p/events.html</b:widget-setting>
+          <b:widget-setting name='text-4'>Events</b:widget-setting>
+          <b:widget-setting name='link-5'>/p/coaches.html</b:widget-setting>
+          <b:widget-setting name='text-5'>Coaches</b:widget-setting>
+          <b:widget-setting name='link-6'>/search/label/Hub</b:widget-setting>
+          <b:widget-setting name='text-6'>Media Hub</b:widget-setting>
+          <b:widget-setting name='link-7'>/p/about.html</b:widget-setting>
+          <b:widget-setting name='text-7'>About</b:widget-setting>
+          <b:widget-setting name='link-8'>/search/label/News</b:widget-setting>
+          <b:widget-setting name='text-8'>News</b:widget-setting>
+          <b:widget-setting name='link-9'>/p/resources.html</b:widget-setting>
+          <b:widget-setting name='text-9'>Resources</b:widget-setting>
+          <b:widget-setting name='link-10'>/p/contact.html</b:widget-setting>
+          <b:widget-setting name='text-10'>Contact</b:widget-setting>
+          <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <ul>
+            <b:loop values='data:links' var='link'>
+              <li><a class='navLink' expr:href='data:link.target'><data:link.name/></a></li>
+            </b:loop>
+          </ul>
+        </b:includable>
+      </b:widget>
+    </b:section>
   </div>
 </div>
 
-<!-- ========== HERO SLIDER ========== -->
+
+
+<!-- ========== HOMEPAGE ONLY ========== -->
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
+
+<!-- ========== HERO SLIDER (3 EDITABLE IMAGE WIDGETS) ========== -->
 <section class='topSlider' id='heroSlider'>
-  <div class='hero-slide active' style='background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&amp;q=80)'>
+  <div class='hero-slide active'>
+    <div style='position:absolute;inset:0;display:none' class='heroImg-1-holder'></div>
+    <b:section class='hero-slide-1' id='hero-slide-1' maxwidgets='1' showaddelement='no'>
+      <b:widget id='Image2' locked='false' title='Hero Slide 1 Image' type='Image' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600&amp;q=80</b:widget-setting>
+          <b:widget-setting name='caption'></b:widget-setting>
+          <b:widget-setting name='link'></b:widget-setting>
+          <b:widget-setting name='shrinkToFit'>true</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <script>document.querySelector('.hero-slide:nth-of-type(1)').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+        </b:includable>
+      </b:widget>
+    </b:section>
     <div class='inner'>
-      <h1>Build Confidence. Overcome Challenge. Take Opportunity.</h1>
-      <a class='button white-transparent' href='/p/about.html'>Find out more</a>
+      <b:section class='hero-slide-1-text' id='hero-slide-1-text' maxwidgets='1' showaddelement='no'>
+        <b:widget id='HTML1' locked='false' title='Hero Slide 1 Text' type='HTML' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'>&lt;h1&gt;Build Confidence. Overcome Challenge. Take Opportunity.&lt;/h1&gt;&lt;a class=&quot;button white-transparent&quot; href=&quot;/p/about.html&quot;&gt;Find Out More&lt;/a&gt;</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'><b:include name='content'/></b:includable>
+          <b:includable id='content'><data:content/></b:includable>
+        </b:widget>
+      </b:section>
     </div>
   </div>
-  <div class='hero-slide' style='background-image:url(https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1600&amp;q=80)'>
+
+  <div class='hero-slide'>
+    <b:section class='hero-slide-2' id='hero-slide-2' maxwidgets='1' showaddelement='no'>
+      <b:widget id='Image3' locked='false' title='Hero Slide 2 Image' type='Image' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1600&amp;q=80</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <script>document.querySelector('.hero-slide:nth-of-type(2)').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+        </b:includable>
+      </b:widget>
+    </b:section>
     <div class='inner'>
-      <h1>The National Governing Body of Parkour in Bangladesh</h1>
-      <a class='button white-transparent' href='/p/about.html'>FIND OUT MORE</a>
+      <b:section class='hero-slide-2-text' id='hero-slide-2-text' maxwidgets='1' showaddelement='no'>
+        <b:widget id='HTML2' locked='false' title='Hero Slide 2 Text' type='HTML' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'>&lt;h1&gt;The National Governing Body of Parkour in Bangladesh&lt;/h1&gt;&lt;a class=&quot;button white-transparent&quot; href=&quot;/p/about.html&quot;&gt;Learn More&lt;/a&gt;</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'><b:include name='content'/></b:includable>
+          <b:includable id='content'><data:content/></b:includable>
+        </b:widget>
+      </b:section>
     </div>
   </div>
-  <div class='hero-slide' style='background-image:url(https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?w=1600&amp;q=80)'>
+
+  <div class='hero-slide'>
+    <b:section class='hero-slide-3' id='hero-slide-3' maxwidgets='1' showaddelement='no'>
+      <b:widget id='Image4' locked='false' title='Hero Slide 3 Image' type='Image' version='2' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?w=1600&amp;q=80</b:widget-setting>
+        </b:widget-settings>
+        <b:includable id='main'>
+          <script>document.querySelector('.hero-slide:nth-of-type(3)').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+        </b:includable>
+      </b:widget>
+    </b:section>
     <div class='inner'>
-      <h1>The Dhaka Project</h1>
-      <a class='button white-transparent' href='https://youtube.com'>WATCH HERE</a>
+      <b:section class='hero-slide-3-text' id='hero-slide-3-text' maxwidgets='1' showaddelement='no'>
+        <b:widget id='HTML3' locked='false' title='Hero Slide 3 Text' type='HTML' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='content'>&lt;h1&gt;The Dhaka Project&lt;/h1&gt;&lt;p style=&quot;color:#fff;font-size:18px;margin-bottom:30px;max-width:600px&quot;&gt;Documenting the journey of Bangladesh&apos;s top traceurs.&lt;/p&gt;&lt;a class=&quot;button white-transparent&quot; href=&quot;https://youtube.com&quot;&gt;Watch Now&lt;/a&gt;</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'><b:include name='content'/></b:includable>
+          <b:includable id='content'><data:content/></b:includable>
+        </b:widget>
+      </b:section>
     </div>
   </div>
+
   <div class='slider-dots'>
     <div class='slider-dot active' onclick='goToSlide(0)'></div>
     <div class='slider-dot' onclick='goToSlide(1)'></div>
@@ -511,116 +490,270 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.
   </div>
 </section>
 
-<!-- ========== DISCOVER PARKOUR ========== -->
+<!-- ========== DISCOVER PARKOUR (3 EDITABLE CARDS) ========== -->
 <section class='discover-section'>
   <div class='wrapper'>
-    <div class='full-grid relative'>
+    <div class='full-grid' style='position:relative'>
       <div class='col-span-full mb-12'>
-        <h2 class='text-3xl'>Discover Parkour</h2>
+        <b:section class='discover-title' id='discover-title' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML4' locked='false' title='Discover Section Title' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;h2 class=&quot;section-title&quot;&gt;Discover Parkour&lt;/h2&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
       </div>
       <div class='semi-circle'></div>
       <div class='semi-circle-2'></div>
 
+      <!-- CARD 1 -->
       <div class='col-span-4'>
         <a class='discover-card bg-red' href='/p/what-is-parkour.html'>
           <div class='textHolder tl'>
             <h3>What is Parkour?</h3>
             <span class='arrow'>&#x2192;</span>
           </div>
-          <div class='imageHolder tl' style='background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800)'></div>
+          <div class='imageHolder tl' id='discoverImg1'></div>
         </a>
+        <b:section class='discover-card-1' id='discover-card-1' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image5' locked='false' title='Discover Card 1 Image' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <script>document.getElementById('discoverImg1').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+            </b:includable>
+          </b:widget>
+        </b:section>
         <div class='discover-text'>
           <a href='/p/what-is-parkour.html'>
             <h4>Parkour Explained</h4>
-            <p>Find out everything you need to know about parkour and who it is for.</p>
+            <p>Find out everything you need to know about parkour and who it is for. Bangladesh's youth have been practicing this discipline since it began in the parks of Dhaka.</p>
           </a>
         </div>
       </div>
 
+      <!-- CARD 2 -->
       <div class='col-span-4'>
         <a class='discover-card bg-blue' href='/p/get-started.html'>
-          <div class='imageHolder tr' style='background-image:url(https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800)'></div>
+          <div class='imageHolder tr' id='discoverImg2'></div>
           <div class='textHolder bl'>
             <span class='arrow'>&#x2192;</span>
-            <h3 style='margin-top:16px'>How to get<br/>started</h3>
+            <h3 style='margin-top:14px'>How to get<br/>started</h3>
           </div>
         </a>
+        <b:section class='discover-card-2' id='discover-card-2' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image6' locked='false' title='Discover Card 2 Image' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <script>document.getElementById('discoverImg2').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+            </b:includable>
+          </b:widget>
+        </b:section>
         <div class='discover-text'>
           <a href='/p/get-started.html'>
             <h4>Parkour for Beginners</h4>
-            <p>Discover the basics of parkour and learn about how to get started as a beginner.</p>
+            <p>Discover the basics of parkour and learn about how to get started as a beginner in Bangladesh's growing parkour community.</p>
           </a>
         </div>
       </div>
 
+      <!-- CARD 3 -->
       <div class='col-span-4'>
         <a class='discover-card bg-black' href='/p/find-class.html'>
-          <div class='imageHolder br' style='background-image:url(https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?w=800)'></div>
+          <div class='imageHolder br' id='discoverImg3'></div>
           <div class='textHolder bl-mid'>
             <h3>Find<br/>Parkour<br/>Near You</h3>
             <span class='arrow'>&#x2192;</span>
           </div>
         </a>
+        <b:section class='discover-card-3' id='discover-card-3' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image7' locked='false' title='Discover Card 3 Image' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?w=800</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <script>document.getElementById('discoverImg3').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+            </b:includable>
+          </b:widget>
+        </b:section>
         <div class='discover-text'>
           <a href='/p/find-class.html'>
             <h4>Find your community</h4>
-            <p>Join local parkour classes and get involved in your community across Bangladesh.</p>
+            <p>Join local parkour classes and get involved with the community across Dhaka, Chattogram, Sylhet and beyond.</p>
           </a>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- MARQUEE -->
+  <!-- MARQUEE: editable text -->
   <div class='marquee'>
     <div class='marquee-content'>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
-      <span>|   Our New Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
+      <span>|   BPA Memberships Are Now LIVE!    </span>
     </div>
   </div>
-
 </section>
 
 
-<!-- ========== MEDIA HUB ========== -->
-<section class='media-section'>
+
+<!-- ========== ABOUT BPA SECTION (EDITABLE TEXT + IMAGE) ========== -->
+<section style='padding:80px 0;background:#fafafa'>
   <div class='wrapper'>
-    <div class='full-grid mt-28 mb-12'>
-      <div class='col-span-9'>
-        <h2 class='text-3xl'>Media Hub</h2>
-        <p>Our Media Hub is home to blogs, videos and podcasts featuring tips and advice, city spot guides, and community stories. Explore the hub to connect with the parkour community and learn more about our culture.</p>
+    <div class='full-grid' style='align-items:center'>
+      <div class='col-span-6'>
+        <b:section class='about-bpa-text' id='about-bpa-text' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML5' locked='false' title='About BPA Text' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;h2 class=&quot;section-title&quot; style=&quot;margin-bottom:20px&quot;&gt;About Bangladesh Parkour Association&lt;/h2&gt;&lt;p style=&quot;font-size:17px;line-height:1.7;color:#333;margin-bottom:16px&quot;&gt;Bangladesh Parkour Association (BPA) is the official organization dedicated to the growth and development of Parkour and Freerunning in Bangladesh. Founded with the vision of building a strong movement community, BPA works to inspire youth through discipline, creativity, fitness, and self-improvement.&lt;/p&gt;&lt;p style=&quot;font-size:17px;line-height:1.7;color:#333;margin-bottom:16px&quot;&gt;The association promotes safe training, athlete development, community events, workshops, competitions, media production, and international collaboration within the global Parkour scene. BPA aims to create opportunities for talented athletes and content creators while spreading awareness about the positive impact of movement culture across Bangladesh.&lt;/p&gt;&lt;p style=&quot;font-size:17px;line-height:1.7;color:#333;margin-bottom:24px&quot;&gt;Through training sessions, performances, social media content, and public engagement, Bangladesh Parkour Association continues to empower the next generation of traceurs and freerunners to push beyond limits, both physically and mentally.&lt;/p&gt;&lt;a class=&quot;button gold&quot; href=&quot;/p/about.html&quot;&gt;Read More&lt;/a&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
       </div>
-      <div class='col-span-3 text-right'>
-        <a class='button yellow mt-4' href='/search/label/Hub'>Explore the Hub</a>
+      <div class='col-span-6'>
+        <div id='aboutBpaImg' style='width:100%;padding-bottom:75%;background-size:cover;background-position:center;background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200)'></div>
+        <b:section class='about-bpa-image' id='about-bpa-image' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image8' locked='false' title='About Section Image' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1200</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <script>document.getElementById('aboutBpaImg').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+            </b:includable>
+          </b:widget>
+        </b:section>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MISSION & VISION ========== -->
+<section style='padding:80px 0'>
+  <div class='wrapper'>
+    <div class='full-grid'>
+      <div class='col-span-6' style='background:var(--blue);padding:48px;color:#fff'>
+        <h3 style='color:#d4af37;font-size:14px;letter-spacing:2px;margin-bottom:14px'>OUR MISSION</h3>
+        <p style='font-size:22px;line-height:1.5;color:#fff'>To develop and promote Parkour and Freerunning in Bangladesh through education, training, community building, and creative expression.</p>
+      </div>
+      <div class='col-span-6' style='background:var(--black);padding:48px;color:#fff'>
+        <h3 style='color:#d4af37;font-size:14px;letter-spacing:2px;margin-bottom:14px'>OUR VISION</h3>
+        <p style='font-size:22px;line-height:1.5;color:#fff'>To establish Bangladesh as a recognized and respected hub for Parkour and movement culture in South Asia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CORE VALUES ========== -->
+<section style='padding:80px 0;background:var(--grey-light)'>
+  <div class='wrapper'>
+    <h2 class='section-title' style='text-align:center;margin-bottom:48px'>Our Core Values</h2>
+    <div class='full-grid' style='gap:20px'>
+      <div class='col-span-2' style='background:#fff;padding:32px 20px;text-align:center'>
+        <div style='font-size:38px;color:var(--gold);margin-bottom:12px'><i class='fas fa-medal'></i></div>
+        <h4 style='font-size:16px;text-transform:uppercase;font-family:var(--font-button)'>Discipline</h4>
+      </div>
+      <div class='col-span-2' style='background:#fff;padding:32px 20px;text-align:center'>
+        <div style='font-size:38px;color:var(--gold);margin-bottom:12px'><i class='fas fa-lightbulb'></i></div>
+        <h4 style='font-size:16px;text-transform:uppercase;font-family:var(--font-button)'>Creativity</h4>
+      </div>
+      <div class='col-span-2' style='background:#fff;padding:32px 20px;text-align:center'>
+        <div style='font-size:38px;color:var(--gold);margin-bottom:12px'><i class='fas fa-running'></i></div>
+        <h4 style='font-size:16px;text-transform:uppercase;font-family:var(--font-button)'>Freedom of Movement</h4>
+      </div>
+      <div class='col-span-2' style='background:#fff;padding:32px 20px;text-align:center'>
+        <div style='font-size:38px;color:var(--gold);margin-bottom:12px'><i class='fas fa-users'></i></div>
+        <h4 style='font-size:16px;text-transform:uppercase;font-family:var(--font-button)'>Community</h4>
+      </div>
+      <div class='col-span-2' style='background:#fff;padding:32px 20px;text-align:center'>
+        <div style='font-size:38px;color:var(--gold);margin-bottom:12px'><i class='fas fa-handshake'></i></div>
+        <h4 style='font-size:16px;text-transform:uppercase;font-family:var(--font-button)'>Respect</h4>
+      </div>
+      <div class='col-span-2' style='background:#fff;padding:32px 20px;text-align:center'>
+        <div style='font-size:38px;color:var(--gold);margin-bottom:12px'><i class='fas fa-shield-alt'></i></div>
+        <h4 style='font-size:16px;text-transform:uppercase;font-family:var(--font-button)'>Safety &amp; Progression</h4>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ACTIVITIES ========== -->
+<section style='padding:80px 0'>
+  <div class='wrapper'>
+    <h2 class='section-title' style='margin-bottom:14px'>What We Do</h2>
+    <p class='section-subtitle' style='margin-bottom:48px'>Bangladesh Parkour Association runs a wide range of activities to grow the parkour and freerunning community across Bangladesh.</p>
+    <div class='full-grid' style='gap:24px'>
+      <div class='col-span-4' style='border-left:4px solid var(--gold);padding:8px 0 8px 24px'>
+        <h4 style='font-size:18px;text-transform:uppercase;margin-bottom:6px'>Parkour Training Sessions</h4>
+        <p style='color:#666;font-size:15px;line-height:1.6'>Regular structured training for beginners to advanced athletes.</p>
+      </div>
+      <div class='col-span-4' style='border-left:4px solid var(--gold);padding:8px 0 8px 24px'>
+        <h4 style='font-size:18px;text-transform:uppercase;margin-bottom:6px'>Workshops &amp; Events</h4>
+        <p style='color:#666;font-size:15px;line-height:1.6'>Skill-building workshops and community gatherings throughout the year.</p>
+      </div>
+      <div class='col-span-4' style='border-left:4px solid var(--gold);padding:8px 0 8px 24px'>
+        <h4 style='font-size:18px;text-transform:uppercase;margin-bottom:6px'>Athlete Development</h4>
+        <p style='color:#666;font-size:15px;line-height:1.6'>Support pathway for emerging traceurs and freerunners.</p>
+      </div>
+      <div class='col-span-4' style='border-left:4px solid var(--gold);padding:8px 0 8px 24px'>
+        <h4 style='font-size:18px;text-transform:uppercase;margin-bottom:6px'>Media &amp; Content Creation</h4>
+        <p style='color:#666;font-size:15px;line-height:1.6'>Producing videos, documentaries, and social content showcasing BD parkour.</p>
+      </div>
+      <div class='col-span-4' style='border-left:4px solid var(--gold);padding:8px 0 8px 24px'>
+        <h4 style='font-size:18px;text-transform:uppercase;margin-bottom:6px'>Community Projects</h4>
+        <p style='color:#666;font-size:15px;line-height:1.6'>Outreach programs in schools, parks, and youth communities.</p>
+      </div>
+      <div class='col-span-4' style='border-left:4px solid var(--gold);padding:8px 0 8px 24px'>
+        <h4 style='font-size:18px;text-transform:uppercase;margin-bottom:6px'>International Collaboration</h4>
+        <p style='color:#666;font-size:15px;line-height:1.6'>Working with global parkour bodies and visiting athletes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ========== MEDIA HUB (DYNAMIC BLOG POSTS) ========== -->
+<section class='media-section' style='padding:60px 0'>
+  <div class='wrapper'>
+    <div class='full-grid' style='margin-bottom:40px'>
+      <div class='col-span-9'>
+        <h2 class='section-title'>Media Hub</h2>
+        <p class='section-subtitle'>Our Media Hub features blogs, videos and stories from the BPA community. Explore tips, athlete features, and movement culture from across Bangladesh.</p>
+      </div>
+      <div class='col-span-3' style='text-align:right;align-self:end'>
+        <a class='button gold' href='/search/label/Hub'>Explore the Hub</a>
       </div>
     </div>
 
-    <div class='full-grid' id='media-hub-grid'>
-      <b:section class='media-hub-section' id='media-hub-section' maxwidgets='1' showaddelement='no'>
-        <b:widget id='Blog1' locked='true' title='BPA Blog Posts' type='Blog' version='2' visible='true'>
+    <div class='full-grid'>
+      <b:section class='media-hub-grid' id='media-hub-grid' maxwidgets='1' showaddelement='no'>
+        <b:widget id='Blog1' locked='true' title='BPA Posts' type='Blog' version='2' visible='true'>
           <b:includable id='main' var='top'>
             <b:loop index='i' values='data:posts' var='post'>
               <b:if cond='data:i &lt; 4'>
-                <div class='col-span-3 mb-14'>
-                  <a expr:href='data:post.url'>
+                <div class='col-span-3'>
+                  <a class='media-card' expr:href='data:post.url'>
                     <div class='image' expr:style='&quot;background-image:url(&quot; + data:post.featuredImage + &quot;)&quot;'></div>
-                  </a>
-                  <b:if cond='data:post.labels'>
-                    <b:loop index='l' values='data:post.labels' var='label'>
-                      <b:if cond='data:l &lt; 2'>
-                        <a class='tag' expr:href='data:label.url'><data:label.name/></a>
-                      </b:if>
-                    </b:loop>
-                  </b:if>
-                  <a class='mt-1 block' expr:href='data:post.url'>
+                    <b:if cond='data:post.labels'>
+                      <b:loop index='l' values='data:post.labels' var='label'>
+                        <b:if cond='data:l &lt; 2'>
+                          <span class='tag'><data:label.name/></span>
+                        </b:if>
+                      </b:loop>
+                    </b:if>
                     <h4 class='text-xl'><data:post.title/></h4>
                   </a>
                 </div>
@@ -631,136 +764,206 @@ h1,h2,h3,h4,h5,h6{font-family:var(--font-heading);font-weight:600;line-height:1.
       </b:section>
     </div>
 
-    <!-- ========== VIDEO BLOCK ========== -->
+    <!-- VIDEO BLOCK: editable text + video URL -->
     <div class='full-grid blueTextBlock'>
       <div class='col-span-6'>
-        <div class='standardText'>
-          <h2>The Dhaka Project</h2>
-          <p>Dhaka is becoming home to a new generation of Bangladeshi parkour athletes.
-
-This year Bangladesh Parkour Association is documenting the journey of our top traceurs as they tackle some of the country&#39;s most iconic urban training spots.
-
-This documentary features the founding members of BPA, exploring how they tackle fear and progress our sport.
-
-Click the video to watch The Dhaka Project, or visit our YouTube channel for more content by clicking the button.</p>
-          <a class='button yellow mt-6' href='https://youtube.com'>Visit Our YouTube Channel</a>
-        </div>
+        <b:section class='video-block-text' id='video-block-text' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML6' locked='false' title='Video Block Text' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;div class=&quot;standardText&quot;&gt;&lt;h2&gt;The Dhaka Project&lt;/h2&gt;&lt;p&gt;Dhaka has become home to a new generation of Bangladeshi parkour athletes.&#13;&#10;&#13;&#10;Bangladesh Parkour Association documents the journey of our top traceurs as they tackle iconic urban training spots from Chandrima Uddan to Hatirjheel and beyond.&#13;&#10;&#13;&#10;Featuring founding members and rising stars exploring how they tackle fear and progress our sport in South Asia.&#13;&#10;&#13;&#10;Click the video to watch, or visit our YouTube channel for more BPA content.&lt;/p&gt;&lt;a class=&quot;button gold&quot; href=&quot;https://youtube.com/@BangladeshParkour&quot; target=&quot;_blank&quot; style=&quot;margin-top:24px&quot;&gt;Visit Our YouTube Channel&lt;/a&gt;&lt;/div&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
       </div>
       <div class='col-span-6'>
-        <div class='videoContainer'>
-          <iframe allow='accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture' allowfullscreen='allowfullscreen' src='https://www.youtube.com/embed/dQw4w9WgXcQ' title='BPA Video'></iframe>
-        </div>
+        <b:section class='video-block-embed' id='video-block-embed' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML7' locked='false' title='Video Embed Code' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;div class=&quot;videoContainer&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dQw4w9WgXcQ&quot; title=&quot;BPA Bangladesh Parkour&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
       </div>
     </div>
 
-    <!-- ========== MEMBERSHIP CTA ========== -->
-    <div class='membership-cta' style='background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600)'>
+    <!-- MEMBERSHIP CTA: 2 editable image cards -->
+    <div class='membership-cta'>
       <div class='membership-card left'>
-        <div class='bg-img' style='background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000)'></div>
+        <div class='bg-img' id='memberImg1'></div>
+        <b:section class='member-card-1-img' id='member-card-1-img' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image9' locked='false' title='Membership Card 1 Image' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1000</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <script>document.getElementById('memberImg1').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+            </b:includable>
+          </b:widget>
+        </b:section>
         <div class='textWrapper'>
           <h3>About Our<br/>Memberships</h3>
-          <a class='button yellow' href='/p/membership.html'>Become a Member</a>
+          <a class='button gold' href='/p/become-a-member.html'>Become a Member</a>
         </div>
       </div>
       <div class='membership-card right tall'>
-        <div class='bg-img' style='background-image:url(https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1000)'></div>
+        <div class='bg-img' id='memberImg2'></div>
+        <b:section class='member-card-2-img' id='member-card-2-img' maxwidgets='1' showaddelement='no'>
+          <b:widget id='Image10' locked='false' title='Membership Card 2 Image' type='Image' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=1000</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <script>document.getElementById('memberImg2').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+            </b:includable>
+          </b:widget>
+        </b:section>
         <div class='textWrapper'>
           <h3>Membership<br/>Area</h3>
-          <a class='button yellow' href='/p/login.html'>Members Login</a>
+          <a class='button gold' href='/p/login.html'>Members Login</a>
         </div>
       </div>
     </div>
 
-    <!-- ========== COACH BLOCK ========== -->
+    <!-- COACH BLOCK -->
     <div class='full-grid'>
       <div class='col-span-full'>
         <div class='coach-block'>
-          <div class='imageHolder' style='background-image:url(https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?w=1200)'></div>
+          <div class='imageHolder' id='coachBlockImg'></div>
+          <b:section class='coach-block-img' id='coach-block-img' maxwidgets='1' showaddelement='no'>
+            <b:widget id='Image11' locked='false' title='Coach Block Image' type='Image' version='2' visible='true'>
+              <b:widget-settings>
+                <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1564769610726-59cead6a6f8f?w=1200</b:widget-setting>
+              </b:widget-settings>
+              <b:includable id='main'>
+                <script>document.getElementById('coachBlockImg').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+              </b:includable>
+            </b:widget>
+          </b:section>
           <div class='textHolder'>
             <h3>Become a<br/>Coach</h3>
-            <a class='button yellow' href='/p/coaches.html'>Learn More</a>
+            <a class='button gold' href='/p/coaches.html'>Learn More</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ========== EVENTS ========== -->
+  <!-- EVENTS SECTION (4 editable event cards) -->
   <div class='events-bg'>
     <div class='wrapper'>
-      <div class='full-grid mb-12'>
+      <div class='full-grid' style='margin-bottom:40px'>
         <div class='col-span-9'>
-          <h2 class='text-3xl'>Upcoming Events</h2>
+          <h2 class='section-title'>Upcoming Events</h2>
         </div>
-        <div class='col-span-3 text-right'>
-          <a class='button yellow mt-4' href='/p/events.html'>View all events</a>
+        <div class='col-span-3' style='text-align:right;align-self:end'>
+          <a class='button gold' href='/p/events.html'>View all events</a>
         </div>
       </div>
-      <div class='full-grid pb-16'>
-        <div class='col-span-3 mb-14'>
+      <div class='full-grid'>
+
+        <div class='col-span-3'>
           <a class='event-card' href='/p/events.html'>
-            <div class='image' style='background:#e63946'>
-              <span class='date'>16/05</span>
+            <div class='image' id='evtImg1' style='background:var(--red)'>
+              <span class='date'>15/06</span>
             </div>
-            <h4>FemGaps Women&#8217;s Event</h4>
-            <p>Open community session for women in parkour. All levels welcome.</p>
+            <h4>BPA Community Jam - Dhaka</h4>
+            <p>Open community parkour jam at Chandrima Uddan. All skill levels welcome.</p>
           </a>
+          <b:section class='event-1-img' id='event-1-img' maxwidgets='1' showaddelement='no'>
+            <b:widget id='Image12' locked='false' title='Event 1 Image' type='Image' version='2' visible='true'>
+              <b:widget-settings><b:widget-setting name='displayUrl'></b:widget-setting></b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:image.sourceUrl'><script>document.getElementById('evtImg1').style.backgroundImage='url(<data:image.sourceUrl/>)';</script></b:if>
+              </b:includable>
+            </b:widget>
+          </b:section>
         </div>
-        <div class='col-span-3 mb-14'>
+
+        <div class='col-span-3'>
           <a class='event-card' href='/p/events.html'>
-            <div class='image' style='background:#1a1a2e'>
-              <span class='date'>22/06</span>
+            <div class='image' id='evtImg2' style='background:var(--blue)'>
+              <span class='date'>22/07</span>
             </div>
             <h4>BPA Level 1 Coaching Course</h4>
             <p>Get certified as a parkour coach with the National Governing Body of Bangladesh.</p>
           </a>
+          <b:section class='event-2-img' id='event-2-img' maxwidgets='1' showaddelement='no'>
+            <b:widget id='Image13' locked='false' title='Event 2 Image' type='Image' version='2' visible='true'>
+              <b:widget-settings><b:widget-setting name='displayUrl'></b:widget-setting></b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:image.sourceUrl'><script>document.getElementById('evtImg2').style.backgroundImage='url(<data:image.sourceUrl/>)';</script></b:if>
+              </b:includable>
+            </b:widget>
+          </b:section>
         </div>
-        <div class='col-span-3 mb-14'>
+
+        <div class='col-span-3'>
           <a class='event-card' href='/p/events.html'>
-            <div class='image' style='background:#e63946'>
+            <div class='image' id='evtImg3' style='background:var(--red)'>
               <span class='date'>10/08</span>
             </div>
-            <h4>Bangladesh Parkour Championships</h4>
+            <h4>Bangladesh Parkour Championship</h4>
             <p>The inaugural national championship - Speed, Skill and Style competition.</p>
           </a>
+          <b:section class='event-3-img' id='event-3-img' maxwidgets='1' showaddelement='no'>
+            <b:widget id='Image14' locked='false' title='Event 3 Image' type='Image' version='2' visible='true'>
+              <b:widget-settings><b:widget-setting name='displayUrl'></b:widget-setting></b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:image.sourceUrl'><script>document.getElementById('evtImg3').style.backgroundImage='url(<data:image.sourceUrl/>)';</script></b:if>
+              </b:includable>
+            </b:widget>
+          </b:section>
         </div>
-        <div class='col-span-3 mb-14'>
+
+        <div class='col-span-3'>
           <a class='event-card' href='/p/events.html'>
-            <div class='image' style='background:#1a1a2e'>
+            <div class='image' id='evtImg4' style='background:var(--blue)'>
               <span class='date'>05/09</span>
             </div>
-            <h4>Dhaka Community Jam</h4>
-            <p>The biggest community parkour jam in Bangladesh. All ages, all skill levels.</p>
+            <h4>Women&#39;s Parkour Workshop</h4>
+            <p>Beginner-friendly workshop designed for women in Bangladesh.</p>
           </a>
+          <b:section class='event-4-img' id='event-4-img' maxwidgets='1' showaddelement='no'>
+            <b:widget id='Image15' locked='false' title='Event 4 Image' type='Image' version='2' visible='true'>
+              <b:widget-settings><b:widget-setting name='displayUrl'></b:widget-setting></b:widget-settings>
+              <b:includable id='main'>
+                <b:if cond='data:image.sourceUrl'><script>document.getElementById('evtImg4').style.backgroundImage='url(<data:image.sourceUrl/>)';</script></b:if>
+              </b:includable>
+            </b:widget>
+          </b:section>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ========== NEWS ========== -->
+  <!-- NEWS SECTION (Dynamic from blog with News label) -->
   <div class='news-section'>
     <div class='wrapper'>
-      <div class='full-grid mb-12'>
+      <div class='full-grid' style='margin-bottom:40px'>
         <div class='col-span-9'>
-          <h2 class='text-3xl'>News</h2>
+          <h2 class='section-title'>News</h2>
         </div>
-        <div class='col-span-3 text-right'>
-          <a class='button yellow mt-4' href='/search/label/News'>View all News</a>
+        <div class='col-span-3' style='text-align:right;align-self:end'>
+          <a class='button gold' href='/search/label/News'>View all News</a>
         </div>
       </div>
-      <div class='full-grid' id='news-grid'>
+      <div class='full-grid'>
         <b:section class='news-grid-section' id='news-grid-section' maxwidgets='1' showaddelement='no'>
-          <b:widget id='Blog2' locked='false' title='BPA News Posts' type='Blog' version='2' visible='true'>
+          <b:widget id='Blog2' locked='false' title='BPA News' type='Blog' version='2' visible='true'>
             <b:includable id='main' var='top'>
               <b:loop index='i' values='data:posts' var='post'>
                 <b:if cond='data:i &lt; 4'>
-                  <div class='col-span-3 mb-14'>
+                  <div class='col-span-3'>
                     <a class='news-card' expr:href='data:post.url'>
                       <div class='image' expr:style='&quot;background-image:url(&quot; + data:post.featuredImage + &quot;)&quot;'></div>
                       <b:if cond='data:post.labels'>
                         <b:loop index='l' values='data:post.labels' var='label'>
                           <b:if cond='data:l &lt; 2'>
-                            <a class='tag' expr:href='data:label.url'><data:label.name/></a>
+                            <span class='tag'><data:label.name/></span>
                           </b:if>
                         </b:loop>
                       </b:if>
@@ -776,9 +979,10 @@ Click the video to watch The Dhaka Project, or visit our YouTube channel for mor
       </div>
     </div>
   </div>
-
 </section>
+
 </b:if>
+
 
 
 <!-- ========== POST PAGE (single post / page) ========== -->
@@ -792,11 +996,8 @@ Click the video to watch The Dhaka Project, or visit our YouTube channel for mor
             <article>
               <h1 class='post-title'><data:post.title/></h1>
               <div class='post-meta'>
-                <span>By <data:post.author/></span>
+                <span>By <data:post.author/></span> &#x2022;
                 <span><data:post.date/></span>
-                <b:if cond='data:post.numberOfComments'>
-                  <span><data:post.numberOfComments/> comments</span>
-                </b:if>
               </div>
               <b:if cond='data:post.featuredImage'>
                 <img expr:alt='data:post.title' expr:src='data:post.featuredImage'/>
@@ -813,19 +1014,15 @@ Click the video to watch The Dhaka Project, or visit our YouTube channel for mor
               </b:if>
               <b:if cond='data:post.allowComments'>
                 <div class='comments-area'>
-                  <h3>Comments</h3>
+                  <h3 style='font-size:24px;margin-bottom:20px'>Comments</h3>
                   <b:include data='post' name='comments'/>
                 </div>
               </b:if>
             </article>
           </b:loop>
           <div class='pagination'>
-            <b:if cond='data:newerPageUrl'>
-              <a expr:href='data:newerPageUrl'>&#x2190; Newer</a>
-            </b:if>
-            <b:if cond='data:olderPageUrl'>
-              <a expr:href='data:olderPageUrl'>Older &#x2192;</a>
-            </b:if>
+            <b:if cond='data:newerPageUrl'><a expr:href='data:newerPageUrl'>&#x2190; Newer</a></b:if>
+            <b:if cond='data:olderPageUrl'><a expr:href='data:olderPageUrl'>Older &#x2192;</a></b:if>
           </div>
         </b:includable>
       </b:widget>
@@ -834,109 +1031,234 @@ Click the video to watch The Dhaka Project, or visit our YouTube channel for mor
 </section>
 </b:if>
 
-<!-- ========== NEWSLETTER ========== -->
-<section class='newsletterHolder' style='background-image:url(https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600)'>
+<!-- ========== NEWSLETTER (EDITABLE BACKGROUND + TEXT) ========== -->
+<section class='newsletterHolder' id='newsletterSection'>
+  <b:section class='newsletter-bg' id='newsletter-bg' maxwidgets='1' showaddelement='no'>
+    <b:widget id='Image16' locked='false' title='Newsletter Background' type='Image' version='2' visible='true'>
+      <b:widget-settings>
+        <b:widget-setting name='displayUrl'>https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1600</b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
+        <script>document.getElementById('newsletterSection').style.backgroundImage='url(<data:image.sourceUrl/>)';</script>
+      </b:includable>
+    </b:widget>
+  </b:section>
   <div class='wrapper'>
-    <div class='full-grid pt-10 pb-8'>
+    <div class='full-grid pt-10 pb-8' style='padding:60px 0'>
       <div class='col-span-full'>
-        <h2 class='text-3xl'>Be part of our culture</h2>
-        <p>Subscribe to our newsletter for updates on project launches, upcoming coaching courses, and the work we do to grow parkour in Bangladesh and beyond.</p>
-        <form class='mt-7' id='signup_form' onsubmit='return subscribe(event)'>
+        <b:section class='newsletter-text' id='newsletter-text' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML8' locked='false' title='Newsletter Text' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;h2&gt;Be Part of Our Movement&lt;/h2&gt;&lt;p&gt;Subscribe to the BPA newsletter for updates on training sessions, upcoming events, coaching courses, and the work we do to grow parkour and freerunning across Bangladesh and beyond.&lt;/p&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
+        <form class='mt-7' id='signup_form' onsubmit='return subscribe(event)' style='margin-top:24px'>
           <div class='full-grid' style='max-width:800px'>
             <div class='col-span-9'>
-              <input id='email' name='email' placeholder='Enter email address' type='email'/>
+              <input id='email' name='email' placeholder='Enter email address' type='email' required='required'/>
             </div>
             <div class='col-span-3'>
-              <button class='button yellow' type='submit'>Subscribe</button>
+              <button class='button gold' type='submit'>Subscribe</button>
             </div>
             <div class='col-span-full'>
               <p class='response' id='nlResponse'>&#160;</p>
             </div>
           </div>
         </form>
-        <p class='privacy-note'>By subscribing to our newsletter, you agree to receive email updates from BPA. We respect your privacy and are committed to protecting your personal information. You can unsubscribe at any time.</p>
+        <p class='privacy-note'>By subscribing to our newsletter, you agree to receive email updates from Bangladesh Parkour Association. We respect your privacy and you can unsubscribe at any time.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ========== FOOTER ========== -->
+<!-- ========== FOOTER (FULLY EDITABLE) ========== -->
 <footer class='bpa-footer'>
   <div class='wrapper'>
-    <div class='full-grid footer-top'>
+    <!-- Footer Logo + Partners -->
+    <div class='full-grid' style='align-items:center'>
       <div class='col-span-5'>
-        <a class='footer-logo-wrap' href='/'>
-          <img alt='BPA Logo' src='https://i.ibb.co/PMK4q5t/bpa-logo.png'/>
-          <div class='text'>Bangladesh<br/>Parkour Association<small>EST. 2026 &#x2022; National Governing Body</small></div>
-        </a>
+        <div class='footerLogo' style='display:flex;align-items:center;gap:20px'>
+          <img alt='BPA Logo' src='https://i.ibb.co/PMK4q5t/bpa-logo.png' style='width:80px;height:80px;border-radius:50%;border:2px solid #d4af37'/>
+          <div style='font-family:Oswald,sans-serif;font-size:24px;font-weight:700;text-transform:uppercase;line-height:1.1'>Bangladesh<br/>Parkour Association<small style='display:block;font-size:11px;font-weight:400;letter-spacing:2px;color:#d4af37;margin-top:6px'>EST. 2026 &#x2022; National Governing Body</small></div>
+        </div>
       </div>
-      <div class='col-span-7 partners'>
-        <a><img alt='Bangladesh Olympic Association' src='https://via.placeholder.com/100x40/d4af37/000?text=BOA'/></a>
-        <a><img alt='Sport Bangladesh' src='https://via.placeholder.com/100x40/d4af37/000?text=Sports'/></a>
-        <a><img alt='Ministry of Youth' src='https://via.placeholder.com/100x40/d4af37/000?text=MOY'/></a>
-        <a><img alt='Parkour Earth' src='https://via.placeholder.com/100x40/d4af37/000?text=PK+Earth'/></a>
+      <div class='col-span-7 partners' style='text-align:right'>
+        <b:section class='footer-partners' id='footer-partners' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML9' locked='false' title='Footer Partners HTML' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&lt;a class=&quot;inline-block&quot; style=&quot;display:inline-block;margin-left:24px;margin-bottom:8px&quot;&gt;&lt;img alt=&quot;Bangladesh Olympic Association&quot; src=&quot;https://via.placeholder.com/100x30/d4af37/000?text=BOA&quot; style=&quot;height:32px&quot;/&gt;&lt;/a&gt;&lt;a style=&quot;display:inline-block;margin-left:24px;margin-bottom:8px&quot;&gt;&lt;img alt=&quot;Ministry of Youth&quot; src=&quot;https://via.placeholder.com/100x30/d4af37/000?text=Ministry&quot; style=&quot;height:32px&quot;/&gt;&lt;/a&gt;&lt;a style=&quot;display:inline-block;margin-left:24px;margin-bottom:8px&quot;&gt;&lt;img alt=&quot;Parkour Earth&quot; src=&quot;https://via.placeholder.com/100x30/d4af37/000?text=PK+Earth&quot; style=&quot;height:32px&quot;/&gt;&lt;/a&gt;&lt;a style=&quot;display:inline-block;margin-left:24px;margin-bottom:8px&quot;&gt;&lt;img alt=&quot;FIG&quot; src=&quot;https://via.placeholder.com/100x30/d4af37/000?text=FIG&quot; style=&quot;height:32px&quot;/&gt;&lt;/a&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
       </div>
     </div>
 
+    <!-- 5 EDITABLE FOOTER LINK COLUMNS (LinkLists) -->
     <div class='footerLists'>
-      <div>
-        <a href='/'><h3>BPA</h3></a>
-        <ul>
-          <li><a href='/search/label/News'>News</a></li>
-          <li><a href='/p/events.html'>Events</a></li>
-          <li><a href='/search/label/Hub'>Media Hub</a></li>
-          <li><a href='/p/resources.html'>Resources</a></li>
-          <li><a href='/p/contact.html'>Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href='/p/discover-parkour.html'><h3>Discover Parkour</h3></a>
-        <ul>
-          <li><a href='/p/what-is-parkour.html'>What is Parkour?</a></li>
-          <li><a href='/p/get-started.html'>How To Get Started</a></li>
-          <li><a href='/p/find-class.html'>Find Parkour Near You</a></li>
-          <li><a href='/p/write-for-us.html'>Write For Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href='/p/about.html'><h3>About</h3></a>
-        <ul>
-          <li><a href='/p/safe-sport.html'>Safe Sport</a></li>
-          <li><a href='/p/governance.html'>Governance</a></li>
-          <li><a href='/p/work-with-us.html'>Work with us</a></li>
-          <li><a href='/p/team.html'>Team</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href='/p/membership.html'><h3>Memberships</h3></a>
-        <ul>
-          <li><a href='/p/membership.html'>Become a member</a></li>
-          <li><a href='/p/login.html'>Login</a></li>
-        </ul>
-      </div>
-      <div>
-        <a href='/p/coaches.html'><h3>Coaches</h3></a>
-        <ul>
-          <li><a href='/p/coaches.html'>Become a Coach</a></li>
-          <li><a href='/p/level-1.html'>Level 1</a></li>
-          <li><a href='/p/level-2.html'>Level 2</a></li>
-          <li><a href='/p/coaching-standards.html'>Coaching Standards</a></li>
-        </ul>
-      </div>
+      <b:section class='footer-col-1' id='footer-col-1' maxwidgets='1' showaddelement='no'>
+        <b:widget id='LinkList3' locked='false' title='BPA' type='LinkList' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='link-1'>/search/label/News</b:widget-setting>
+            <b:widget-setting name='text-1'>News</b:widget-setting>
+            <b:widget-setting name='link-2'>/p/events.html</b:widget-setting>
+            <b:widget-setting name='text-2'>Events</b:widget-setting>
+            <b:widget-setting name='link-3'>/search/label/Hub</b:widget-setting>
+            <b:widget-setting name='text-3'>Media Hub</b:widget-setting>
+            <b:widget-setting name='link-4'>/p/resources.html</b:widget-setting>
+            <b:widget-setting name='text-4'>Resources</b:widget-setting>
+            <b:widget-setting name='link-5'>/p/contact.html</b:widget-setting>
+            <b:widget-setting name='text-5'>Contact</b:widget-setting>
+            <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <h3><data:title/></h3>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
+
+      <b:section class='footer-col-2' id='footer-col-2' maxwidgets='1' showaddelement='no'>
+        <b:widget id='LinkList4' locked='false' title='Discover Parkour' type='LinkList' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='link-1'>/p/what-is-parkour.html</b:widget-setting>
+            <b:widget-setting name='text-1'>What is Parkour?</b:widget-setting>
+            <b:widget-setting name='link-2'>/p/get-started.html</b:widget-setting>
+            <b:widget-setting name='text-2'>How To Get Started</b:widget-setting>
+            <b:widget-setting name='link-3'>/p/find-class.html</b:widget-setting>
+            <b:widget-setting name='text-3'>Find Parkour Near You</b:widget-setting>
+            <b:widget-setting name='link-4'>/p/write-for-us.html</b:widget-setting>
+            <b:widget-setting name='text-4'>Write For Us</b:widget-setting>
+            <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <h3><data:title/></h3>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
+
+      <b:section class='footer-col-3' id='footer-col-3' maxwidgets='1' showaddelement='no'>
+        <b:widget id='LinkList5' locked='false' title='About' type='LinkList' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='link-1'>/p/about.html</b:widget-setting>
+            <b:widget-setting name='text-1'>About BPA</b:widget-setting>
+            <b:widget-setting name='link-2'>/p/safe-sport.html</b:widget-setting>
+            <b:widget-setting name='text-2'>Safe Sport</b:widget-setting>
+            <b:widget-setting name='link-3'>/p/governance.html</b:widget-setting>
+            <b:widget-setting name='text-3'>Governance</b:widget-setting>
+            <b:widget-setting name='link-4'>/p/team.html</b:widget-setting>
+            <b:widget-setting name='text-4'>Meet the Team</b:widget-setting>
+            <b:widget-setting name='link-5'>/p/work-with-us.html</b:widget-setting>
+            <b:widget-setting name='text-5'>Work With Us</b:widget-setting>
+            <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <h3><data:title/></h3>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
+
+      <b:section class='footer-col-4' id='footer-col-4' maxwidgets='1' showaddelement='no'>
+        <b:widget id='LinkList6' locked='false' title='Memberships' type='LinkList' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='link-1'>/p/become-a-member.html</b:widget-setting>
+            <b:widget-setting name='text-1'>Become a Member</b:widget-setting>
+            <b:widget-setting name='link-2'>/p/login.html</b:widget-setting>
+            <b:widget-setting name='text-2'>Members Login</b:widget-setting>
+            <b:widget-setting name='link-3'>/p/benefits.html</b:widget-setting>
+            <b:widget-setting name='text-3'>Member Benefits</b:widget-setting>
+            <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <h3><data:title/></h3>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
+
+      <b:section class='footer-col-5' id='footer-col-5' maxwidgets='1' showaddelement='no'>
+        <b:widget id='LinkList7' locked='false' title='Coaches' type='LinkList' version='2' visible='true'>
+          <b:widget-settings>
+            <b:widget-setting name='link-1'>/p/coaches.html</b:widget-setting>
+            <b:widget-setting name='text-1'>Become a Coach</b:widget-setting>
+            <b:widget-setting name='link-2'>/p/level-1.html</b:widget-setting>
+            <b:widget-setting name='text-2'>Level 1</b:widget-setting>
+            <b:widget-setting name='link-3'>/p/level-2.html</b:widget-setting>
+            <b:widget-setting name='text-3'>Level 2</b:widget-setting>
+            <b:widget-setting name='link-4'>/p/coaching-standards.html</b:widget-setting>
+            <b:widget-setting name='text-4'>Coaching Standards</b:widget-setting>
+            <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+          </b:widget-settings>
+          <b:includable id='main'>
+            <h3><data:title/></h3>
+            <ul>
+              <b:loop values='data:links' var='link'>
+                <li><a expr:href='data:link.target'><data:link.name/></a></li>
+              </b:loop>
+            </ul>
+          </b:includable>
+        </b:widget>
+      </b:section>
     </div>
 
+    <!-- Footer Bottom: Social + Legal -->
     <div class='footer-bottom'>
       <div class='socials'>
-        <a href='https://instagram.com' target='_blank' title='Instagram'>&#xf16d;</a>
-        <a href='https://facebook.com' target='_blank' title='Facebook'>&#xf09a;</a>
-        <a href='https://linkedin.com' target='_blank' title='LinkedIn'>&#xf0e1;</a>
-        <a href='https://youtube.com' target='_blank' title='YouTube'>&#xf167;</a>
-        <a href='https://tiktok.com' target='_blank' title='TikTok'>&#xe07b;</a>
+        <b:section class='footer-socials' id='footer-socials' maxwidgets='1' showaddelement='no'>
+          <b:widget id='LinkList8' locked='false' title='' type='LinkList' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='link-1'>https://www.facebook.com/BangladeshParkour/</b:widget-setting>
+              <b:widget-setting name='text-1'>&#xf09a;</b:widget-setting>
+              <b:widget-setting name='link-2'>https://www.instagram.com/bangladeshparkour/</b:widget-setting>
+              <b:widget-setting name='text-2'>&#xf16d;</b:widget-setting>
+              <b:widget-setting name='link-3'>https://www.youtube.com/@BangladeshParkour</b:widget-setting>
+              <b:widget-setting name='text-3'>&#xf167;</b:widget-setting>
+              <b:widget-setting name='link-4'>https://linkedin.com/company/bangladesh-parkour</b:widget-setting>
+              <b:widget-setting name='text-4'>&#xf0e1;</b:widget-setting>
+              <b:widget-setting name='link-5'>https://tiktok.com/@bangladeshparkour</b:widget-setting>
+              <b:widget-setting name='text-5'>&#xe07b;</b:widget-setting>
+              <b:widget-setting name='sortAlpha'>false</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'>
+              <b:loop values='data:links' var='link'>
+                <a expr:href='data:link.target' target='_blank' style='font-family:&quot;Font Awesome 6 Brands&quot;'><data:link.name/></a>
+              </b:loop>
+            </b:includable>
+          </b:widget>
+        </b:section>
       </div>
       <div class='legal'>
-        &#169; 2026 Bangladesh Parkour Association.
-        <a href='/p/privacy-policy.html'>Privacy Policy</a>
-        <a href='/p/terms.html'>Terms</a>
+        <b:section class='footer-legal' id='footer-legal' maxwidgets='1' showaddelement='no'>
+          <b:widget id='HTML10' locked='false' title='Footer Legal Text' type='HTML' version='2' visible='true'>
+            <b:widget-settings>
+              <b:widget-setting name='content'>&#169; 2026 Bangladesh Parkour Association. &lt;a href=&quot;/p/privacy-policy.html&quot;&gt;Privacy Policy&lt;/a&gt; &lt;a href=&quot;/p/terms.html&quot;&gt;Terms&lt;/a&gt;</b:widget-setting>
+            </b:widget-settings>
+            <b:includable id='main'><b:include name='content'/></b:includable>
+            <b:includable id='content'><data:content/></b:includable>
+          </b:widget>
+        </b:section>
       </div>
     </div>
   </div>
@@ -944,7 +1266,6 @@ Click the video to watch The Dhaka Project, or visit our YouTube channel for mor
 
 <script>
 //<![CDATA[
-// Mobile / overlay nav toggle
 function toggleNav(){
   var ov=document.getElementById('overlayNav');
   var tg=document.getElementById('menuToggle');
@@ -952,16 +1273,12 @@ function toggleNav(){
   tg.classList.toggle('active');
   document.body.style.overflow=ov.classList.contains('active')?'hidden':'';
 }
-
-// Header scroll
 window.addEventListener('scroll',function(){
   var h=document.getElementById('bpaHeader');
   if(!h)return;
   if(window.scrollY>50)h.classList.add('scrolled');
   else h.classList.remove('scrolled');
 });
-
-// Hero slider
 var currSlide=0;
 var slides=document.querySelectorAll('.hero-slide');
 var dots=document.querySelectorAll('.slider-dot');
@@ -973,38 +1290,15 @@ function goToSlide(n){
   slides[currSlide].classList.add('active');
   if(dots[currSlide])dots[currSlide].classList.add('active');
 }
-function nextSlide(){
-  if(!slides.length)return;
-  goToSlide((currSlide+1)%slides.length);
-}
+function nextSlide(){if(slides.length)goToSlide((currSlide+1)%slides.length);}
 if(slides.length>1)setInterval(nextSlide,5500);
-
-// Newsletter
 function subscribe(e){
   e.preventDefault();
   var email=document.getElementById('email').value;
   var resp=document.getElementById('nlResponse');
-  if(email){
-    resp.textContent='Thanks for subscribing! We will be in touch soon.';
-    document.getElementById('signup_form').reset();
-  }
+  if(email){resp.textContent='Thank you for subscribing to BPA newsletter!';document.getElementById('signup_form').reset();}
   return false;
 }
-
-// Inject Font Awesome for social icons
-(function(){
-  var l=document.createElement('link');
-  l.rel='stylesheet';
-  l.href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css';
-  document.head.appendChild(l);
-})();
-
-// Set FA family on social icons
-document.addEventListener('DOMContentLoaded',function(){
-  document.querySelectorAll('.header-socials a, .footer-bottom .socials a').forEach(function(a){
-    a.style.fontFamily='"Font Awesome 6 Brands"';
-  });
-});
 //]]>
 </script>
 
